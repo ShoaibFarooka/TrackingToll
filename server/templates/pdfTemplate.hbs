@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Order Details</title>
+    <style>
+        /* Define your CSS styles */
+        .order-section {
+            margin-bottom: 20px;
+        }
+
+        .order-item {
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='view-order'>
+        <div>
+            <div class="order-section">
+                <h3>Client Information</h3>
+                <p><strong>Car Chassis Number:</strong> {{ data.clientInfo.carChassisNumber }}</p>
+                <p><strong>Car Model:</strong> {{ data.clientInfo.carModel }}</p>
+                <p><strong>Car Number:</strong> {{ data.clientInfo.carNumber }}</p>
+                <p><strong>Contact Number:</strong> {{ data.clientInfo.contactNumber }}</p>
+                <p><strong>Customer Name:</strong> {{ data.clientInfo.customerName }}</p>
+                <p><strong>Location:</strong> {{ data.clientInfo.location }}</p>
+                <p><strong>MR Number:</strong> {{ data.clientInfo.mrNumber }}</p>
+                <p><strong>RO Number:</strong> {{ data.clientInfo.roNumber }}</p>
+            </div>
+
+            <div class="order-section">
+                <h3>Initial Sales Order Items</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Car Code</th>
+                            <th>Part Num</th>
+                            <th>Row Line Num</th>
+                            <th>SAP Num</th>
+                            <th>Description</th>
+                            <th>Unit Of Measurement</th>
+                            <th>Quantity</th>
+                            <th>Unit Price</th>
+                            <th>Total Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each data.initialSalesOrderItems}}
+                        <tr>
+                            <td>{{ mergeArr package.carCode }}</td>
+                            <td>{{ package.partNum}}</td>
+                            <td>{{ package.rowLineNum }}</td>
+                            <td>{{ package.sapNum }}</td>
+                            <td>{{ package.description }}</td>
+                            <td>{{ package.unitOfMeasurement }}</td>
+                            <td>{{ quantity }}</td>
+                            <td>{{ package.unitPriceEGP }}</td>
+                            <td>{{ mul package.unitPriceEGP quantity }}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="order-section">
+                <h3>Initial Service Order Items</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Car Code</th>
+                            <th>Table Num</th>
+                            <th>Item Num</th>
+                            <th>Description</th>
+                            <th>Unit Of Measurement</th>
+                            <th>Quantity</th>
+                            <th>Unit Price</th>
+                            <th>Total Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each data.initialServiceOrderItems}}
+                        <tr>
+                            <td>{{ package.carCode }}</td>
+                            <td>{{ package.tableNum}}</td>
+                            <td>{{ package.itemNum }}</td>
+                            <td>{{ package.description }}</td>
+                            <td>{{ package.unitOfMeasurement }}</td>
+                            <td>{{ quantity }}</td>
+                            <td>{{ package.unitPriceEGP }}</td>
+                            <td>{{ mul package.unitPriceEGP quantity }}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+
+            {{#ifeq data.status 'completed'}}
+            <div class="order-section">
+                <h3>Final Sales Order Items</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Car Code</th>
+                            <th>Part Num</th>
+                            <th>Row Line Num</th>
+                            <th>SAP Num</th>
+                            <th>Description</th>
+                            <th>Unit Of Measurement</th>
+                            <th>Quantity</th>
+                            <th>Unit Price</th>
+                            <th>Total Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each data.finalSalesOrderItems}}
+                        <tr>
+                            <td>{{ mergeArr package.carCode }}</td>
+                            <td>{{ package.partNum}}</td>
+                            <td>{{ package.rowLineNum }}</td>
+                            <td>{{ package.sapNum }}</td>
+                            <td>{{ package.description }}</td>
+                            <td>{{ package.unitOfMeasurement }}</td>
+                            <td>{{ quantity }}</td>
+                            <td>{{ package.unitPriceEGP }}</td>
+                            <td>{{ mul package.unitPriceEGP quantity }}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="order-section">
+                <h3>Final Service Order Items</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Car Code</th>
+                            <th>Table Num</th>
+                            <th>Item Num</th>
+                            <th>Description</th>
+                            <th>Unit Of Measurement</th>
+                            <th>Quantity</th>
+                            <th>Unit Price</th>
+                            <th>Total Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each data.finalServiceOrderItems}}
+                        <tr>
+                            <td>{{ package.carCode }}</td>
+                            <td>{{ package.tableNum}}</td>
+                            <td>{{ package.itemNum }}</td>
+                            <td>{{ package.description }}</td>
+                            <td>{{ package.unitOfMeasurement }}</td>
+                            <td>{{ quantity }}</td>
+                            <td>{{ package.unitPriceEGP }}</td>
+                            <td>{{ mul package.unitPriceEGP quantity }}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+            {{/ifeq}}
+
+            <div class="order-section">
+                <h3>Team Responses</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Team Name</th>
+                            <th>User</th>
+                            <th>Status</th>
+                            <th>Comments</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each data.teamResponses}}
+                        <tr>
+                            <td>{{ teamName }}</td>
+                            <td>{{ user.name }} ({{ user.email }})</td>
+                            <td>{{ status }}</td>
+                            <td>{{ comments }}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+
+            {{#ifeq data.status 'completed'}}
+            <div class="order-section">
+                <h3>Engineers List</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Name</th>
+                            <th>ID</th>
+                            <th>Position</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each data.engineers}}
+                        <tr>
+                            <td>{{ item }}</td>
+                            <td>{{ name }}</td>
+                            <td>{{ id }}</td>
+                            <td>{{ position }}</td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </div>
+            {{/ifeq}}
+        </div>
+    </div>
+</body>
+
+</html>

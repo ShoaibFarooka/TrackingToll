@@ -1,0 +1,39 @@
+.home .search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.home .search-form .form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.home .search-form .label {
+    font-weight: bold;
+    display: block;
+}
+
+.home .search-form .search-btn {
+    max-width: 120px;
+}
+
+.home .search-form .btns-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.home .search-form .export-btn {
+    background-color: rgb(21, 181, 21);
+    color: white;
+
+    &:hover {
+        background-color: rgba(21, 181, 21, 0.74);
+        color: white;
+        border-color: #d9d9d9;
+    }
+}

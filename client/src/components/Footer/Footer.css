@@ -1,0 +1,12 @@
+.footer {
+    /* background: linear-gradient(90deg, rgb(0, 101, 219)40%, rgb(0, 212, 255, 1)100%); */
+    background-color: rgba(0, 0, 0, 0.865);
+    margin-left: 91px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}

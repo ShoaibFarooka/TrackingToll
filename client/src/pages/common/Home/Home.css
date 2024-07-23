@@ -1,0 +1,14 @@
+.home {
+padding: 10px 20px;
+overflow-x: hidden;
+}
+
+.home .heading {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.home .table {
+    overflow-x: auto;
+}

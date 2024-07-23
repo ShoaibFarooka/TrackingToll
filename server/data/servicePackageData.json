@@ -1,0 +1,532 @@
+[
+    {
+     "carCode": "AA100",
+     "tableNum": "T1",
+     "itemNum": "S1",
+     "description": "Motor Sub Assembly Make Up",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 4522,
+     "quantity": 1,
+     "totalPriceEGP": 4522
+    },
+    {
+     "carCode": "AA100",
+     "tableNum": "T1",
+     "itemNum": "S2",
+     "description": "Motor Assembly Pressure testing",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3039,
+     "quantity": 1,
+     "totalPriceEGP": 3039
+    },
+    {
+     "carCode": "AA100",
+     "tableNum": "T1",
+     "itemNum": "S3",
+     "description": "Transportation",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3289,
+     "quantity": 1,
+     "totalPriceEGP": 3289
+    },
+    {
+     "carCode": "AA100",
+     "tableNum": "T1",
+     "itemNum": "S4",
+     "description": "Running, Installation and Deployment Tools Service Rates",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 10768,
+     "quantity": 1,
+     "totalPriceEGP": 10768
+    },
+    {
+     "carCode": "AA100",
+     "tableNum": "T1",
+     "itemNum": "S5",
+     "description": "Service Engineer (SITE based – 24 Hrs)\nAs per P.1 - Table 1",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 1050,
+     "quantity": 5,
+     "totalPriceEGP": 5250
+    },
+    {
+     "carCode": "AA200",
+     "tableNum": "T2",
+     "itemNum": "S1",
+     "description": "Motor Sub Assembly Make Up",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 5112,
+     "quantity": 1,
+     "totalPriceEGP": 5112
+    },
+    {
+     "carCode": "AA200",
+     "tableNum": "T2",
+     "itemNum": "S2",
+     "description": "Motor Assembly Pressure testing",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3378,
+     "quantity": 1,
+     "totalPriceEGP": 3378
+    },
+    {
+     "carCode": "AA200",
+     "tableNum": "T2",
+     "itemNum": "S3",
+     "description": "Transportation",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3289,
+     "quantity": 1,
+     "totalPriceEGP": 3289
+    },
+    {
+     "carCode": "AA200",
+     "tableNum": "T2",
+     "itemNum": "S4",
+     "description": "Running, Installation and Deployment Tools Service Rates",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 7758,
+     "quantity": 1,
+     "totalPriceEGP": 7758
+    },
+    {
+     "carCode": "AA200",
+     "tableNum": "T2",
+     "itemNum": "S5",
+     "description": "Service Engineer (SITE based – 24 Hrs)\nAs per P.1 - Table 1",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 1050,
+     "quantity": 5,
+     "totalPriceEGP": 5250
+    },
+    {
+     "carCode": "AA300",
+     "tableNum": "T3",
+     "itemNum": "S1",
+     "description": "Motor Sub Assembly Make Up",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3486,
+     "quantity": 1,
+     "totalPriceEGP": 3486
+    },
+    {
+     "carCode": "AA300",
+     "tableNum": "T3",
+     "itemNum": "S2",
+     "description": "Motor Assembly Pressure testing",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 2628,
+     "quantity": 1,
+     "totalPriceEGP": 2628
+    },
+    {
+     "carCode": "AA300",
+     "tableNum": "T3",
+     "itemNum": "S3",
+     "description": "Transportation",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3289,
+     "quantity": 1,
+     "totalPriceEGP": 3289
+    },
+    {
+     "carCode": "AA300",
+     "tableNum": "T3",
+     "itemNum": "S4",
+     "description": "Running, Installation and Deployment Tools Service Rates",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 7758,
+     "quantity": 1,
+     "totalPriceEGP": 7758
+    },
+    {
+     "carCode": "AA300",
+     "tableNum": "T3",
+     "itemNum": "S5",
+     "description": "Service Engineer (SITE based – 24 Hrs)\nAs per P.1 - Table 1",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 1050,
+     "quantity": 3,
+     "totalPriceEGP": 3150
+    },
+    {
+     "carCode": "AA400",
+     "tableNum": "T4",
+     "itemNum": "S1",
+     "description": "Motor Sub Assembly Make Up",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 5577,
+     "quantity": 1,
+     "totalPriceEGP": 5577
+    },
+    {
+     "carCode": "AA400",
+     "tableNum": "T4",
+     "itemNum": "S2",
+     "description": "Motor Assembly Pressure testing",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3754,
+     "quantity": 1,
+     "totalPriceEGP": 3754
+    },
+    {
+     "carCode": "AA400",
+     "tableNum": "T4",
+     "itemNum": "S3",
+     "description": "Transportation",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3289,
+     "quantity": 1,
+     "totalPriceEGP": 3289
+    },
+    {
+     "carCode": "AA400",
+     "tableNum": "T4",
+     "itemNum": "S4",
+     "description": "Running, Installation and Deployment Tools Service Rates",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 14550,
+     "quantity": 1,
+     "totalPriceEGP": 14550
+    },
+    {
+     "carCode": "AA400",
+     "tableNum": "T4",
+     "itemNum": "S5",
+     "description": "Service Engineer (SITE based – 24 Hrs)\nAs per P.1 - Table 1",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 1050,
+     "quantity": 5,
+     "totalPriceEGP": 5250
+    },
+    {
+     "carCode": "AA500",
+     "tableNum": "T5",
+     "itemNum": "S1",
+     "description": "Motor Sub Assembly Make Up",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 5112,
+     "quantity": 1,
+     "totalPriceEGP": 5112
+    },
+    {
+     "carCode": "AA500",
+     "tableNum": "T5",
+     "itemNum": "S2",
+     "description": "Motor Assembly Pressure testing",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3647,
+     "quantity": 1,
+     "totalPriceEGP": 3647
+    },
+    {
+     "carCode": "AA500",
+     "tableNum": "T5",
+     "itemNum": "S3",
+     "description": "Transportation",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3289,
+     "quantity": 1,
+     "totalPriceEGP": 3289
+    },
+    {
+     "carCode": "AA500",
+     "tableNum": "T5",
+     "itemNum": "S4",
+     "description": "Running, Installation and Deployment Tools Service Rates",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 7758,
+     "quantity": 1,
+     "totalPriceEGP": 7758
+    },
+    {
+     "carCode": "AA500",
+     "tableNum": "T5",
+     "itemNum": "S5",
+     "description": "Service Engineer (SITE based – 24 Hrs)\nAs per P.1 - Table 1",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 1050,
+     "quantity": 5,
+     "totalPriceEGP": 5250
+    },
+    {
+     "carCode": "AA600",
+     "tableNum": "T6",
+     "itemNum": "S1",
+     "description": "Motor Sub Assembly Make Up",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 6042,
+     "quantity": 1,
+     "totalPriceEGP": 6042
+    },
+    {
+     "carCode": "AA600",
+     "tableNum": "T6",
+     "itemNum": "S2",
+     "description": "Motor Assembly Pressure testing",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 4505,
+     "quantity": 1,
+     "totalPriceEGP": 4505
+    },
+    {
+     "carCode": "AA600",
+     "tableNum": "T6",
+     "itemNum": "S3",
+     "description": "Transportation",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3289,
+     "quantity": 1,
+     "totalPriceEGP": 3289
+    },
+    {
+     "carCode": "AA600",
+     "tableNum": "T6",
+     "itemNum": "S4",
+     "description": "Running, Installation and Deployment Tools Service Rates",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 7758,
+     "quantity": 1,
+     "totalPriceEGP": 7758
+    },
+    {
+     "carCode": "AA600",
+     "tableNum": "T6",
+     "itemNum": "S5",
+     "description": "Service Engineer (SITE based – 24 Hrs)\nAs per P.1 - Table 1",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 1050,
+     "quantity": 5,
+     "totalPriceEGP": 5250
+    },
+    {
+     "carCode": "AA700",
+     "tableNum": "T7",
+     "itemNum": "S1",
+     "description": "Motor Sub Assembly Make Up",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 9384,
+     "quantity": 1,
+     "totalPriceEGP": 9384
+    },
+    {
+     "carCode": "AA700",
+     "tableNum": "T7",
+     "itemNum": "S2",
+     "description": "Motor Assembly Pressure testing",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 4934,
+     "quantity": 1,
+     "totalPriceEGP": 4934
+    },
+    {
+     "carCode": "AA700",
+     "tableNum": "T7",
+     "itemNum": "S3",
+     "description": "Transportation",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3289,
+     "quantity": 1,
+     "totalPriceEGP": 3289
+    },
+    {
+     "carCode": "AA700",
+     "tableNum": "T7",
+     "itemNum": "S4",
+     "description": "Running, Installation and Deployment Tools Service Rates",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 14550,
+     "quantity": 1,
+     "totalPriceEGP": 14550
+    },
+    {
+     "carCode": "AA700",
+     "tableNum": "T7",
+     "itemNum": "S5",
+     "description": "Service Engineer (SITE based – 24 Hrs)\nAs per P.1 - Table 1",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 1050,
+     "quantity": 5,
+     "totalPriceEGP": 1050
+    },
+    {
+     "carCode": "AA700",
+     "tableNum": "T7",
+     "itemNum": "S6",
+     "description": "Motor Chemical Injection Installation Service",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 5250,
+     "quantity": 5,
+     "totalPriceEGP": 26250
+    },
+    {
+     "carCode": "AA800",
+     "tableNum": "T8",
+     "itemNum": "S1",
+     "description": "Motor Sub Assembly Make Up",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 5577,
+     "quantity": 1,
+     "totalPriceEGP": 5577
+    },
+    {
+     "carCode": "AA800",
+     "tableNum": "T8",
+     "itemNum": "S2",
+     "description": "Motor Assembly Pressure testing",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3754,
+     "quantity": 1,
+     "totalPriceEGP": 3754
+    },
+    {
+     "carCode": "AA800",
+     "tableNum": "T8",
+     "itemNum": "S3",
+     "description": "Transportation",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3289,
+     "quantity": 1,
+     "totalPriceEGP": 3289
+    },
+    {
+     "carCode": "AA800",
+     "tableNum": "T8",
+     "itemNum": "S4",
+     "description": "Running, Installation and Deployment Tools Service Rates",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 13585,
+     "quantity": 1,
+     "totalPriceEGP": 13585
+    },
+    {
+     "carCode": "AA800",
+     "tableNum": "T8",
+     "itemNum": "S5",
+     "description": "Service Engineer (SITE based – 24 Hrs)\nAs per P.1 - Table 1",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 1050,
+     "quantity": 5,
+     "totalPriceEGP": 5250
+    },
+    {
+     "carCode": "AA800",
+     "tableNum": "T8",
+     "itemNum": "S6",
+     "description": "Motor Chemical Injection Installation Service",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 5250,
+     "quantity": 5,
+     "totalPriceEGP": 26250
+    },
+    {
+     "carCode": "AA900",
+     "tableNum": "T9",
+     "itemNum": "S1",
+     "description": "Motor Sub Assembly Make Up",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 6507,
+     "quantity": 1,
+     "totalPriceEGP": 6507
+    },
+    {
+     "carCode": "AA900",
+     "tableNum": "T9",
+     "itemNum": "S2",
+     "description": "Motor Assembly Pressure testing",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 4880,
+     "quantity": 1,
+     "totalPriceEGP": 4880
+    },
+    {
+     "carCode": "AA900",
+     "tableNum": "T9",
+     "itemNum": "S3",
+     "description": "Transportation",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3289,
+     "quantity": 1,
+     "totalPriceEGP": 3289
+    },
+    {
+     "carCode": "AA900",
+     "tableNum": "T9",
+     "itemNum": "S4",
+     "description": "Running, Installation and Deployment Tools Service Rates",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 25365,
+     "quantity": 1,
+     "totalPriceEGP": 25365
+    },
+    {
+     "carCode": "AA900",
+     "tableNum": "T9",
+     "itemNum": "S5",
+     "description": "Service Engineer (SITE based – 24 Hrs)\nAs per P.1 - Table 1",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 1050,
+     "quantity": 5,
+     "totalPriceEGP": 5250
+    },
+    {
+     "carCode": "AA900",
+     "tableNum": "T9",
+     "itemNum": "S6",
+     "description": "Motor Chemical Injection Installation Service",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 5250,
+     "quantity": 5,
+     "totalPriceEGP": 26250
+    },
+    {
+     "carCode": "AA1000",
+     "tableNum": "T10",
+     "itemNum": "S1",
+     "description": "Motor Sub Assembly Make Up",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3539,
+     "quantity": 1,
+     "totalPriceEGP": 3539
+    },
+    {
+     "carCode": "AA1000",
+     "tableNum": "T10",
+     "itemNum": "S2",
+     "description": "Motor Assembly Pressure testing",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 2127,
+     "quantity": 1,
+     "totalPriceEGP": 2127
+    },
+    {
+     "carCode": "AA1000",
+     "tableNum": "T10",
+     "itemNum": "S3",
+     "description": "Transportation",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 3289,
+     "quantity": 1,
+     "totalPriceEGP": 3289
+    },
+    {
+     "carCode": "AA1000",
+     "tableNum": "T10",
+     "itemNum": "S4",
+     "description": "Running, Installation and Deployment Tools Service Rates",
+     "unitOfMeasurement": "Lumpsum",
+     "unitPriceEGP": 6793,
+     "quantity": 1,
+     "totalPriceEGP": 6793
+    },
+    {
+     "carCode": "AA1000",
+     "tableNum": "T10",
+     "itemNum": "S5",
+     "description": "Service Engineer (SITE based – 24 Hrs)\nAs per P.1 - Table 1",
+     "unitOfMeasurement": "Day Rate",
+     "unitPriceEGP": 1050,
+     "quantity": 5,
+     "totalPriceEGP": 5250
+    }
+   ]

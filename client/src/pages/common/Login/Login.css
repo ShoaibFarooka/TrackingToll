@@ -1,0 +1,7 @@
+.login .form {
+    background: linear-gradient(90deg, rgb(0, 101, 219)40%, rgb(0, 212, 255, 1)100%);
+}
+
+.login .form a {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,41 @@
+.multiple-input-container {
+    width: 100%;
+    max-width: 200px;
+    /* Adjust max-width as per your design */
+}
+
+.multiple-input {
+    width: 100%;
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.tag-style {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: fit-content;
+    padding: 3px 7px;
+    padding-right: 5px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgb(51, 152, 51);
+}
+
+.tag-style .ant-tag-close-icon {
+    color: #fff;
+}
+
+.tag-style .tag-text {
+    font-size: 12px;
+}
+
+.tag-style .tag-cross {
+    margin-bottom: -3px;
+    cursor: pointer;
+}

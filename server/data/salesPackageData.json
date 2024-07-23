@@ -1,0 +1,2525 @@
+[
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc01",
+    "rowLineNum": "UPR-ACC-ROW-118-0",
+    "sapNum": "KR-01289",
+    "description": "Fuel Tank 1-1/2\" 656",
+    "unitOfMeasurement": "P",
+    "quantity": 30,
+    "unitPriceEGP": 100,
+    "totalPriceEGP": 3000
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc02",
+    "rowLineNum": "UPR-ACC-ROW-119-1",
+    "sapNum": "KR-01290",
+    "description": "Fuel Pump 1-1/2\" 610",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 250,
+    "totalPriceEGP": 500
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc03",
+    "rowLineNum": "UPR-ACC-ROW-23-2",
+    "sapNum": "KR-01291",
+    "description": "Battery 2 615",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 130,
+    "totalPriceEGP": 520
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc04",
+    "rowLineNum": "UPR-ACC-ROW-35-3",
+    "sapNum": "KR-01292",
+    "description": "Shock Absorber 2 623",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 97,
+    "totalPriceEGP": 194
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc05",
+    "rowLineNum": "UPR-CL-ROW-2-4",
+    "sapNum": "KR-01293",
+    "description": "Engine Fan 688",
+    "unitOfMeasurement": "P",
+    "quantity": 600,
+    "unitPriceEGP": 180,
+    "totalPriceEGP": 108000
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc06",
+    "rowLineNum": "UPR-DHSV-ROW-20-5",
+    "sapNum": "KR-01294",
+    "description": "Tire 22\" 630",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 1000,
+    "totalPriceEGP": 2000
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc07",
+    "rowLineNum": "UPR-DHSV-ROW-58-6",
+    "sapNum": "KR-01295",
+    "description": "Pistons 2-1/2\" 659",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 280
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc08",
+    "rowLineNum": "UPR-DHSV-ROW-73-7",
+    "sapNum": "KR-01296",
+    "description": "Air Filtier 3 655",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 240,
+    "totalPriceEGP": 480
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc09",
+    "rowLineNum": "UPR-DHSV-ROW-86-8",
+    "sapNum": "KR-01297",
+    "description": "Axle 2-1/4\" 676",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 350,
+    "totalPriceEGP": 700
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc10",
+    "rowLineNum": "UPR-NPL-ROW-78-9",
+    "sapNum": "KR-01298",
+    "description": "Side Mirrors 654",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 120
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc11",
+    "rowLineNum": "UPR-NPL-ROW-79-10",
+    "sapNum": "KR-01299",
+    "description": "Fog Light 687",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 170,
+    "totalPriceEGP": 340
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc12",
+    "rowLineNum": "UPR-PKR-ROW-112-11",
+    "sapNum": "KR-01300",
+    "description": "Rear Bumper Diffuser 3-1/4\" 677",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 700
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc13",
+    "rowLineNum": "UPR-PKR-ROW-8-12",
+    "sapNum": "KR-01301",
+    "description": "Headlights 621",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 500,
+    "totalPriceEGP": 500
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc14",
+    "rowLineNum": "UPR-SPMCIM-ROW-13-13",
+    "sapNum": "KR-01302",
+    "description": "Timing Belt 1-1/2\" 618",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 300,
+    "totalPriceEGP": 1200
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc15",
+    "rowLineNum": "UPR-SPMCIM-ROW-3-14",
+    "sapNum": "KR-01303",
+    "description": "Gear Box 643",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 560,
+    "totalPriceEGP": 2240
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc16",
+    "rowLineNum": "UPR-SPMCIM-ROW-6-15",
+    "sapNum": "KR-01304",
+    "description": "Oli Pump, NIAL, 1-1/2\", 5KPSI 649",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 430,
+    "totalPriceEGP": 430
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc17",
+    "rowLineNum": "UPR-SPMCIM-ROW-7-16",
+    "sapNum": "KR-01305",
+    "description": "INJECTION Pump, NIAL, 1-1/2\", 5KPSI 651",
+    "unitOfMeasurement": "P",
+    "quantity": 3,
+    "unitPriceEGP": 580,
+    "totalPriceEGP": 1740
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc18",
+    "rowLineNum": "UPR-SPM-ROW-25-17",
+    "sapNum": "KR-01306",
+    "description": "HYDRAULIC Susbintion , 1/4\", INC 825, BARE LINE 611",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 406,
+    "totalPriceEGP": 1624
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc19",
+    "rowLineNum": "UPR-STPS-ROW-12-18",
+    "sapNum": "KR-01307",
+    "description": "STRAPS, 100FT ROLL, 201 STEEL 633",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 240
+  },
+  {
+    "carCode": [
+      "AA100"
+    ],
+    "partNum": "12abc20",
+    "rowLineNum": "UPR-STPS-ROW-13-19",
+    "sapNum": "KR-01308",
+    "description": "BUCKLES, BOX OF 100 PIECES, 201 STEEL 670",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 40,
+    "totalPriceEGP": 80
+  },
+  {
+    "carCode": [
+      "AA200",
+      "AA100"
+    ],
+    "partNum": "15bcd01",
+    "rowLineNum": "UPR-ACC-ROW-11-20",
+    "sapNum": "RM-08750",
+    "description": "Fuel Tank 8-1/2\"  756",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 70,
+    "totalPriceEGP": 280
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd02",
+    "rowLineNum": "UPR-ACC-ROW-27-21",
+    "sapNum": "RM-08751",
+    "description": "Fuel Pump 5-1/2\" 780",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 200,
+    "totalPriceEGP": 400
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd03",
+    "rowLineNum": "UPR-ACC-ROW-36-22",
+    "sapNum": "RM-08752",
+    "description": "Battery 744",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 130,
+    "totalPriceEGP": 260
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd04",
+    "rowLineNum": "UPR-ACC-ROW-7-23",
+    "sapNum": "RM-08753",
+    "description": "Shock Absorber 770",
+    "unitOfMeasurement": "P",
+    "quantity": 30,
+    "unitPriceEGP": 91,
+    "totalPriceEGP": 2730
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd05",
+    "rowLineNum": "UPR-BRVLV-ROW-18-24",
+    "sapNum": "RM-08754",
+    "description": "Engine Fan 763",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 180,
+    "totalPriceEGP": 360
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd06",
+    "rowLineNum": "UPR-CL-ROW-2-25",
+    "sapNum": "RM-08755",
+    "description": "Tire 21\" 766",
+    "unitOfMeasurement": "P",
+    "quantity": 600,
+    "unitPriceEGP": 800,
+    "totalPriceEGP": 480000
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd07",
+    "rowLineNum": "UPR-DHSV-ROW-6-26",
+    "sapNum": "RM-08756",
+    "description": "Pistons 6-1/2\" 724",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 280
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd08",
+    "rowLineNum": "UPR-DHSV-ROW-7-27",
+    "sapNum": "RM-08757",
+    "description": "Air Filtier 728",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 240,
+    "totalPriceEGP": 480
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd09",
+    "rowLineNum": "UPR-DHSV-ROW-75-28",
+    "sapNum": "RM-08758",
+    "description": "Axle 2-1/4\" 703",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 350,
+    "totalPriceEGP": 700
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd10",
+    "rowLineNum": "UPR-DHSV-ROW-8-29",
+    "sapNum": "RM-08759",
+    "description": "Side Mirrors 799",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 240
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd11",
+    "rowLineNum": "UPR-NPL-ROW-11-30",
+    "sapNum": "RM-08760",
+    "description": "Fog Light 734",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 170,
+    "totalPriceEGP": 170
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd12",
+    "rowLineNum": "UPR-NPL-ROW-8-31",
+    "sapNum": "RM-08761",
+    "description": "Rear Bumper Diffuser 2-1/4\" 782",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 1400
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd13",
+    "rowLineNum": "UPR-PKR-ROW-16-32",
+    "sapNum": "RM-08762",
+    "description": "Headlights 788",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 500,
+    "totalPriceEGP": 500
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd14",
+    "rowLineNum": "UPR-PKR-ROW-5-33",
+    "sapNum": "RM-08763",
+    "description": "Timing Belt 1-1/2\" 710",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 300,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd15",
+    "rowLineNum": "UPR-STPS-ROW-12-34",
+    "sapNum": "RM-08764",
+    "description": "Gear Box 712",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 560,
+    "totalPriceEGP": 1120
+  },
+  {
+    "carCode": [
+      "AA200"
+    ],
+    "partNum": "15bcd16",
+    "rowLineNum": "UPR-STPS-ROW-13-35",
+    "sapNum": "RM-08765",
+    "description": "Oli Pump, NIAL, 6-1/2\", 2KPSI 777",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 430,
+    "totalPriceEGP": 860
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd01",
+    "rowLineNum": "UPR-ACC-ROW-11-36",
+    "sapNum": "DC-02335",
+    "description": "Fuel Tank 1-1/2\" 256",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 480
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd02",
+    "rowLineNum": "UPR-ACC-ROW-27-37",
+    "sapNum": "DC-02336",
+    "description": "Fuel Pump 1-1/2\" 210",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 150,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd03",
+    "rowLineNum": "UPR-ACC-ROW-36-38",
+    "sapNum": "DC-02337",
+    "description": "Battery 215",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 130,
+    "totalPriceEGP": 260
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd04",
+    "rowLineNum": "UPR-ACC-ROW-7-39",
+    "sapNum": "DC-02338",
+    "description": "Shock Absorber 223",
+    "unitOfMeasurement": "P",
+    "quantity": 30,
+    "unitPriceEGP": 97,
+    "totalPriceEGP": 2910
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd05",
+    "rowLineNum": "UPR-BRVLV-ROW-18-40",
+    "sapNum": "DC-02339",
+    "description": "Engine Fan 288",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 180,
+    "totalPriceEGP": 360
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd06",
+    "rowLineNum": "UPR-CL-ROW-2-41",
+    "sapNum": "DC-02340",
+    "description": "Tire 22\" 230",
+    "unitOfMeasurement": "P",
+    "quantity": 600,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 420000
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd07",
+    "rowLineNum": "UPR-DHSV-ROW-6-42",
+    "sapNum": "DC-02341",
+    "description": "Pistons 2-1/2\" 259",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 280
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd08",
+    "rowLineNum": "UPR-DHSV-ROW-7-43",
+    "sapNum": "DC-02342",
+    "description": "Air Filtier 3 255",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 240,
+    "totalPriceEGP": 480
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd09",
+    "rowLineNum": "UPR-DHSV-ROW-75-44",
+    "sapNum": "DC-02343",
+    "description": "Axle 2-1/4\" 276",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 350,
+    "totalPriceEGP": 700
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd10",
+    "rowLineNum": "UPR-DHSV-ROW-8-45",
+    "sapNum": "DC-02344",
+    "description": "Side Mirrors 254",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 240
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd11",
+    "rowLineNum": "UPR-NPL-ROW-11-46",
+    "sapNum": "DC-02345",
+    "description": "Fog Light 287",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 170,
+    "totalPriceEGP": 170
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd12",
+    "rowLineNum": "UPR-NPL-ROW-8-47",
+    "sapNum": "DC-02346",
+    "description": "Rear Bumper Diffuser 3-1/4\" 277",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 1400
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd13",
+    "rowLineNum": "UPR-PKR-ROW-16-48",
+    "sapNum": "DC-02347",
+    "description": "Headlights 221",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 500,
+    "totalPriceEGP": 500
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd14",
+    "rowLineNum": "UPR-PKR-ROW-5-49",
+    "sapNum": "DC-02348",
+    "description": "Timing Belt 1-1/2\" 218",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 300,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd15",
+    "rowLineNum": "UPR-SPMCIM-ROW-13-50",
+    "sapNum": "DC-02349",
+    "description": "Gear Box 243",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 560,
+    "totalPriceEGP": 2240
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd16",
+    "rowLineNum": "UPR-SPMCIM-ROW-3-51",
+    "sapNum": "DC-02350",
+    "description": "Oli Pump, NIAL, 1-1/2\", 5KPSI 249",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 430,
+    "totalPriceEGP": 1720
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd17",
+    "rowLineNum": "UPR-SPMCIM-ROW-6-52",
+    "sapNum": "DC-02351",
+    "description": "INJECTION Pump, NIAL, 1-1/2\", 5KPSI 251",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 580,
+    "totalPriceEGP": 580
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd18",
+    "rowLineNum": "UPR-SPMCIM-ROW-7-53",
+    "sapNum": "DC-02352",
+    "description": "HYDRAULIC Susbintion , 1/4\", INC 825, BARE LINE 211",
+    "unitOfMeasurement": "P",
+    "quantity": 3,
+    "unitPriceEGP": 400,
+    "totalPriceEGP": 1200
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd19",
+    "rowLineNum": "UPR-SPM-ROW-3-54",
+    "sapNum": "DC-02353",
+    "description": "STRAPS, 100FT ROLL, 201 STEEL 233",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 560
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd20",
+    "rowLineNum": "UPR-STPS-ROW-12-55",
+    "sapNum": "DC-02354",
+    "description": "BUCKLES, BOX OF 100 PIECES, 201 STEEL 270",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 40,
+    "totalPriceEGP": 80
+  },
+  {
+    "carCode": [
+      "AA300"
+    ],
+    "partNum": "02mmd21",
+    "rowLineNum": "UPR-STPS-ROW-13-56",
+    "sapNum": "DC-02355",
+    "description": "Screw, BOX OF 100 PIECES, 201 STEEL 271",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 60,
+    "totalPriceEGP": 120
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw081",
+    "rowLineNum": "UPR-ACC-ROW-11-57",
+    "sapNum": "MW-02210",
+    "description": "Fuel Tank 7-1/2\"  456",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 70,
+    "totalPriceEGP": 280
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw082",
+    "rowLineNum": "UPR-ACC-ROW-36-58",
+    "sapNum": "MW-02211",
+    "description": "Fuel Pump 5-1/3\" 480",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 150,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw083",
+    "rowLineNum": "UPR-ACC-ROW-7-59",
+    "sapNum": "MW-02212",
+    "description": "Battery 444",
+    "unitOfMeasurement": "P",
+    "quantity": 30,
+    "unitPriceEGP": 160,
+    "totalPriceEGP": 4800
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw084",
+    "rowLineNum": "UPR-BRVLV-ROW-18-60",
+    "sapNum": "MW-02213",
+    "description": "Shock Absorber 470",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 80,
+    "totalPriceEGP": 160
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw085",
+    "rowLineNum": "UPR-DHSV-ROW-6-61",
+    "sapNum": "MW-02214",
+    "description": "Engine Fan 463",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 190,
+    "totalPriceEGP": 380
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw086",
+    "rowLineNum": "UPR-DHSV-ROW-7-62",
+    "sapNum": "MW-02215",
+    "description": "Tire 21\" 466",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 900,
+    "totalPriceEGP": 1800
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw087",
+    "rowLineNum": "UPR-DHSV-ROW-75-63",
+    "sapNum": "MW-02216",
+    "description": "Pistons 8-1/2\" 424",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 280
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw088",
+    "rowLineNum": "UPR-DHSV-ROW-8-64",
+    "sapNum": "MW-02217",
+    "description": "Air Filtier 428",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 240,
+    "totalPriceEGP": 480
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw089",
+    "rowLineNum": "UPR-NPL-ROW-11-65",
+    "sapNum": "MW-02218",
+    "description": "Axle 3-1/3\" 403",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 350,
+    "totalPriceEGP": 350
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw090",
+    "rowLineNum": "UPR-NPL-ROW-8-66",
+    "sapNum": "MW-02219",
+    "description": "Side Mirrors 499",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 240
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw091",
+    "rowLineNum": "UPR-PKR-ROW-16-67",
+    "sapNum": "MW-02220",
+    "description": "Fog Light 434",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 170,
+    "totalPriceEGP": 170
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw092",
+    "rowLineNum": "UPR-PKR-ROW-5-68",
+    "sapNum": "MW-02221",
+    "description": "Rear Bumper Diffuser 2-3/4\" 482",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 700
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw093",
+    "rowLineNum": "UPR-STPS-ROW-12-69",
+    "sapNum": "MW-02222",
+    "description": "Headlights 488",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 500,
+    "totalPriceEGP": 1000
+  },
+  {
+    "carCode": [
+      "AA400"
+    ],
+    "partNum": "23bmw094",
+    "rowLineNum": "UPR-STPS-ROW-13-70",
+    "sapNum": "MW-02223",
+    "description": "Timing Belt 1-1/3\" 410",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 300,
+    "totalPriceEGP": 600
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng024",
+    "rowLineNum": "UPR-ACC-ROW-11-71",
+    "sapNum": "RG-01105",
+    "description": "Fuel Tank 8-1/2\"  956",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 100,
+    "totalPriceEGP": 400
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng025",
+    "rowLineNum": "UPR-ACC-ROW-36-72",
+    "sapNum": "RG-01106",
+    "description": "Fuel Pump 5-1/2\" 980",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 220,
+    "totalPriceEGP": 440
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng026",
+    "rowLineNum": "UPR-ACC-ROW-7-73",
+    "sapNum": "RG-01107",
+    "description": "Battery 944",
+    "unitOfMeasurement": "P",
+    "quantity": 30,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 4200
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng027",
+    "rowLineNum": "UPR-BRVLV-ROW-18-74",
+    "sapNum": "RG-01108",
+    "description": "Shock Absorber 970",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 100,
+    "totalPriceEGP": 200
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng028",
+    "rowLineNum": "UPR-CL-ROW-2-75",
+    "sapNum": "RG-01109",
+    "description": "Engine Fan 963",
+    "unitOfMeasurement": "P",
+    "quantity": 600,
+    "unitPriceEGP": 200,
+    "totalPriceEGP": 120000
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng029",
+    "rowLineNum": "UPR-DHSV-ROW-6-76",
+    "sapNum": "RG-01110",
+    "description": "Tire 20\" 966",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 900,
+    "totalPriceEGP": 1800
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng030",
+    "rowLineNum": "UPR-DHSV-ROW-7-77",
+    "sapNum": "RG-01111",
+    "description": "Pistons 8-1/2\" 924",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 150,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng031",
+    "rowLineNum": "UPR-DHSV-ROW-75-78",
+    "sapNum": "RG-01112",
+    "description": "Air Filtier 928",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 100,
+    "totalPriceEGP": 200
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng032",
+    "rowLineNum": "UPR-DHSV-ROW-8-79",
+    "sapNum": "RG-01113",
+    "description": "Axle 3-1/4\" 903",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 400,
+    "totalPriceEGP": 800
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng033",
+    "rowLineNum": "UPR-NPL-ROW-11-80",
+    "sapNum": "RG-01114",
+    "description": "Side Mirrors 999",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 160,
+    "totalPriceEGP": 160
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng034",
+    "rowLineNum": "UPR-NPL-ROW-8-81",
+    "sapNum": "RG-01115",
+    "description": "Fog Light 934",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 190,
+    "totalPriceEGP": 380
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng035",
+    "rowLineNum": "UPR-PKR-ROW-16-82",
+    "sapNum": "RG-01116",
+    "description": "Rear Bumper Diffuser 2-1/4\" 982",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 850,
+    "totalPriceEGP": 850
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng036",
+    "rowLineNum": "UPR-PKR-ROW-5-83",
+    "sapNum": "RG-01117",
+    "description": "Headlights 988",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 520,
+    "totalPriceEGP": 520
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng037",
+    "rowLineNum": "UPR-STPS-ROW-12-84",
+    "sapNum": "RG-01118",
+    "description": "Timing Belt 1-1/2\" 910",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 320,
+    "totalPriceEGP": 640
+  },
+  {
+    "carCode": [
+      "AA500"
+    ],
+    "partNum": "20rng038",
+    "rowLineNum": "UPR-STPS-ROW-13-85",
+    "sapNum": "RG-01119",
+    "description": "Gear Box 912",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 800,
+    "totalPriceEGP": 1600
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag033",
+    "rowLineNum": "UPR-ACC-ROW-10-86",
+    "sapNum": "FP-07620",
+    "description": "Fuel Tank 1-1/2\" 356",
+    "unitOfMeasurement": "P",
+    "quantity": 30,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 3600
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag034",
+    "rowLineNum": "UPR-ACC-ROW-21-87",
+    "sapNum": "FP-07621",
+    "description": "Fuel Pump 1-1/2\" 310",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 150,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag035",
+    "rowLineNum": "UPR-ACC-ROW-28-88",
+    "sapNum": "FP-07622",
+    "description": "Battery 315",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 130,
+    "totalPriceEGP": 260
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag036",
+    "rowLineNum": "UPR-ACC-ROW-34-89",
+    "sapNum": "FP-07623",
+    "description": "Shock Absorber 323",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 97,
+    "totalPriceEGP": 194
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag037",
+    "rowLineNum": "UPR-BRVLV-ROW-19-90",
+    "sapNum": "FP-07624",
+    "description": "Engine Fan 388",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 180,
+    "totalPriceEGP": 180
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag038",
+    "rowLineNum": "UPR-CL-ROW-2-91",
+    "sapNum": "FP-07625",
+    "description": "Tire 21\" 339",
+    "unitOfMeasurement": "P",
+    "quantity": 600,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 420000
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag039",
+    "rowLineNum": "UPR-DHSV-ROW-15-92",
+    "sapNum": "FP-07626",
+    "description": "Pistons 2-1/3\" 359",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 280
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag040",
+    "rowLineNum": "UPR-DHSV-ROW-16-93",
+    "sapNum": "FP-07627",
+    "description": "Air Filtier 355",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 240,
+    "totalPriceEGP": 480
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag041",
+    "rowLineNum": "UPR-DHSV-ROW-17-94",
+    "sapNum": "FP-07628",
+    "description": "Axle 2-1/2\" 376",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 350,
+    "totalPriceEGP": 700
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag042",
+    "rowLineNum": "UPR-DHSV-ROW-76-95",
+    "sapNum": "FP-07629",
+    "description": "Side Mirrors 354",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 240
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag043",
+    "rowLineNum": "UPR-NPL-ROW-10-96",
+    "sapNum": "FP-07630",
+    "description": "Fog Light 387",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 170,
+    "totalPriceEGP": 170
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag044",
+    "rowLineNum": "UPR-NPL-ROW-52-97",
+    "sapNum": "FP-07631",
+    "description": "Rear Bumper Diffuser 3-1/2\" 377",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 1400
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag045",
+    "rowLineNum": "UPR-NPL-ROW-53-98",
+    "sapNum": "FP-07632",
+    "description": "Headlights 321",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 500,
+    "totalPriceEGP": 500
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag046",
+    "rowLineNum": "UPR-PKR-ROW-55-99",
+    "sapNum": "FP-07633",
+    "description": "Timing Belt 1-1/2\" 318",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 300,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag047",
+    "rowLineNum": "UPR-PKR-ROW-6-100",
+    "sapNum": "FP-07634",
+    "description": "Gear Box 343",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 560,
+    "totalPriceEGP": 560
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag048",
+    "rowLineNum": "UPR-SPMCIM-ROW-13-101",
+    "sapNum": "FP-07635",
+    "description": "Oli Pump, NIAL, 1-1/2\", 5KPSI 349",
+    "unitOfMeasurement": "P",
+    "quantity": 3,
+    "unitPriceEGP": 430,
+    "totalPriceEGP": 1290
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag049",
+    "rowLineNum": "UPR-SPMCIM-ROW-3-102",
+    "sapNum": "FP-07636",
+    "description": "INJECTION Pump, NIAL, 1-1/2\", 5KPSI 351",
+    "unitOfMeasurement": "P",
+    "quantity": 3,
+    "unitPriceEGP": 580,
+    "totalPriceEGP": 1740
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag050",
+    "rowLineNum": "UPR-SPMCIM-ROW-6-103",
+    "sapNum": "FP-07637",
+    "description": "HYDRAULIC Susbintion , 1/4\", INC 825, BARE LINE 311",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 400,
+    "totalPriceEGP": 400
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag051",
+    "rowLineNum": "UPR-SPMCIM-ROW-7-104",
+    "sapNum": "FP-07638",
+    "description": "STRAPS, 100FT ROLL, 201 STEEL 330",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 280
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag052",
+    "rowLineNum": "UPR-SPM-ROW-4-105",
+    "sapNum": "FP-07639",
+    "description": "BUCKLES, BOX OF 100 PIECES, 201 STEEL 370",
+    "unitOfMeasurement": "P",
+    "quantity": 3,
+    "unitPriceEGP": 40,
+    "totalPriceEGP": 120
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag053",
+    "rowLineNum": "UPR-STPS-ROW-12-106",
+    "sapNum": "FP-07640",
+    "description": "Screw, BOX OF 100 PIECES, 201 STEEL 371",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 60,
+    "totalPriceEGP": 120
+  },
+  {
+    "carCode": [
+      "AA600"
+    ],
+    "partNum": "03jag054",
+    "rowLineNum": "UPR-STPS-ROW-13-107",
+    "sapNum": "FP-07641",
+    "description": "Brake disk 08.B413 335",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 40,
+    "totalPriceEGP": 80
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast022",
+    "rowLineNum": "UPR-ACC-ROW-10-108",
+    "sapNum": "VT-02551",
+    "description": "Fuel Tank 1-1/2\" 556",
+    "unitOfMeasurement": "P",
+    "quantity": 30,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 3600
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast023",
+    "rowLineNum": "UPR-ACC-ROW-21-109",
+    "sapNum": "VT-02552",
+    "description": "Fuel Pump 1-1/2\" 510",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 150,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast024",
+    "rowLineNum": "UPR-ACC-ROW-28-110",
+    "sapNum": "VT-02553",
+    "description": "Battery 515",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 130,
+    "totalPriceEGP": 260
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast025",
+    "rowLineNum": "UPR-ACC-ROW-34-111",
+    "sapNum": "VT-02554",
+    "description": "Shock Absorber 523",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 97,
+    "totalPriceEGP": 194
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast026",
+    "rowLineNum": "UPR-BRVLV-ROW-19-112",
+    "sapNum": "VT-02555",
+    "description": "Engine Fan 588",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 180,
+    "totalPriceEGP": 360
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast027",
+    "rowLineNum": "UPR-CL-ROW-2-113",
+    "sapNum": "VT-02556",
+    "description": "Tire 21\" 530",
+    "unitOfMeasurement": "P",
+    "quantity": 600,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 420000
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast028",
+    "rowLineNum": "UPR-DHSV-ROW-15-114",
+    "sapNum": "VT-02557",
+    "description": "Pistons 2-1/3\" 559",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 280
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast029",
+    "rowLineNum": "UPR-DHSV-ROW-16-115",
+    "sapNum": "VT-02558",
+    "description": "Air Filtier 555",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 240,
+    "totalPriceEGP": 480
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast030",
+    "rowLineNum": "UPR-DHSV-ROW-17-116",
+    "sapNum": "VT-02559",
+    "description": "Axle 2-1/2\" 576",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 350,
+    "totalPriceEGP": 700
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast031",
+    "rowLineNum": "UPR-DHSV-ROW-76-117",
+    "sapNum": "VT-02560",
+    "description": "Side Mirrors 554",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 240
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast032",
+    "rowLineNum": "UPR-NPL-ROW-10-118",
+    "sapNum": "VT-02561",
+    "description": "Fog Light 587",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 170,
+    "totalPriceEGP": 170
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast033",
+    "rowLineNum": "UPR-NPL-ROW-52-119",
+    "sapNum": "VT-02562",
+    "description": "Rear Bumper Diffuser 3-1/2\" 577",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 1400
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast034",
+    "rowLineNum": "UPR-NPL-ROW-53-120",
+    "sapNum": "VT-02563",
+    "description": "Headlights 521",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 500,
+    "totalPriceEGP": 500
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast035",
+    "rowLineNum": "UPR-PKR-ROW-55-121",
+    "sapNum": "VT-02564",
+    "description": "Timing Belt 1-1/2\" 518",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 300,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast036",
+    "rowLineNum": "UPR-PKR-ROW-6-122",
+    "sapNum": "VT-02565",
+    "description": "Gear Box 543",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 560,
+    "totalPriceEGP": 560
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast037",
+    "rowLineNum": "UPR-SPMCIM-ROW-13-123",
+    "sapNum": "VT-02566",
+    "description": "Oli Pump, NIAL, 1-1/2\", 5KPSI 549",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 430,
+    "totalPriceEGP": 1720
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast038",
+    "rowLineNum": "UPR-SPMCIM-ROW-3-124",
+    "sapNum": "VT-02567",
+    "description": "INJECTION Pump, NIAL, 1-1/2\", 5KPSI 551",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 580,
+    "totalPriceEGP": 2320
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast039",
+    "rowLineNum": "UPR-SPMCIM-ROW-6-125",
+    "sapNum": "VT-02568",
+    "description": "HYDRAULIC Susbintion , 1/4\", INC 825, BARE LINE 511",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 400,
+    "totalPriceEGP": 400
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast040",
+    "rowLineNum": "UPR-SPMCIM-ROW-7-126",
+    "sapNum": "VT-02569",
+    "description": "STRAPS, 100FT ROLL, 201 STEEL 532",
+    "unitOfMeasurement": "P",
+    "quantity": 3,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 420
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast041",
+    "rowLineNum": "UPR-SPM-ROW-4-127",
+    "sapNum": "VT-02570",
+    "description": "BUCKLES, BOX OF 100 PIECES, 201 STEEL 570",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 40,
+    "totalPriceEGP": 160
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast042",
+    "rowLineNum": "UPR-STPS-ROW-12-128",
+    "sapNum": "VT-02571",
+    "description": "Screw, BOX OF 100 PIECES, 201 STEEL 571",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 60,
+    "totalPriceEGP": 120
+  },
+  {
+    "carCode": [
+      "AA700"
+    ],
+    "partNum": "05ast043",
+    "rowLineNum": "UPR-STPS-ROW-13-129",
+    "sapNum": "VT-02572",
+    "description": "Brake disk 08.B413 535",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 40,
+    "totalPriceEGP": 80
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc043",
+    "rowLineNum": "UPR-ACC-ROW-10-130",
+    "sapNum": "AC-08501",
+    "description": "Fuel Tank 1-1/2\" 856",
+    "unitOfMeasurement": "P",
+    "quantity": 30,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 3600
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc044",
+    "rowLineNum": "UPR-ACC-ROW-21-131",
+    "sapNum": "AC-08502",
+    "description": "Fuel Pump 1-1/2\" 810",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 150,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc045",
+    "rowLineNum": "UPR-ACC-ROW-28-132",
+    "sapNum": "AC-08503",
+    "description": "Battery 815",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 130,
+    "totalPriceEGP": 260
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc046",
+    "rowLineNum": "UPR-ACC-ROW-34-133",
+    "sapNum": "AC-08504",
+    "description": "Shock Absorber 823",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 97,
+    "totalPriceEGP": 194
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc047",
+    "rowLineNum": "UPR-BRVLV-ROW-19-134",
+    "sapNum": "AC-08505",
+    "description": "Engine Fan 888",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 180,
+    "totalPriceEGP": 360
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc048",
+    "rowLineNum": "UPR-CL-ROW-2-135",
+    "sapNum": "AC-08506",
+    "description": "Tire 20\" 830",
+    "unitOfMeasurement": "P",
+    "quantity": 600,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 420000
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc049",
+    "rowLineNum": "UPR-DHSV-ROW-15-136",
+    "sapNum": "AC-08507",
+    "description": "Pistons 2-1/3\" 859",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 280
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc050",
+    "rowLineNum": "UPR-DHSV-ROW-16-137",
+    "sapNum": "AC-08508",
+    "description": "Air Filtier 855",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 240,
+    "totalPriceEGP": 480
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc051",
+    "rowLineNum": "UPR-DHSV-ROW-17-138",
+    "sapNum": "AC-08509",
+    "description": "Axle 2-1/2\" 876",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 350,
+    "totalPriceEGP": 700
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc052",
+    "rowLineNum": "UPR-DHSV-ROW-76-139",
+    "sapNum": "AC-08510",
+    "description": "Side Mirrors 854",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 240
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc053",
+    "rowLineNum": "UPR-NPL-ROW-10-140",
+    "sapNum": "AC-08511",
+    "description": "Fog Light 887",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 170,
+    "totalPriceEGP": 170
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc054",
+    "rowLineNum": "UPR-NPL-ROW-52-141",
+    "sapNum": "AC-08512",
+    "description": "Rear Bumper Diffuser 3-1/2\" 877",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 1400
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc055",
+    "rowLineNum": "UPR-NPL-ROW-53-142",
+    "sapNum": "AC-08513",
+    "description": "Headlights 821",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 500,
+    "totalPriceEGP": 500
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc056",
+    "rowLineNum": "UPR-PKR-ROW-55-143",
+    "sapNum": "AC-08514",
+    "description": "Timing Belt 1-1/2\" 818",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 300,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc057",
+    "rowLineNum": "UPR-PKR-ROW-6-144",
+    "sapNum": "AC-08515",
+    "description": "Gear Box 843",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 560,
+    "totalPriceEGP": 560
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc058",
+    "rowLineNum": "UPR-SPMCIM-ROW-13-145",
+    "sapNum": "AC-08516",
+    "description": "Oli Pump, NIAL, 1-1/2\", 5KPSI 849",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 430,
+    "totalPriceEGP": 1720
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc059",
+    "rowLineNum": "UPR-SPMCIM-ROW-3-146",
+    "sapNum": "AC-08517",
+    "description": "INJECTION Pump, NIAL, 1-1/2\", 5KPSI 851",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 580,
+    "totalPriceEGP": 2320
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc060",
+    "rowLineNum": "UPR-SPMCIM-ROW-6-147",
+    "sapNum": "AC-08518",
+    "description": "HYDRAULIC Susbintion , 1/4\", INC 825, BARE LINE 811",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 400,
+    "totalPriceEGP": 400
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc061",
+    "rowLineNum": "UPR-SPMCIM-ROW-7-148",
+    "sapNum": "AC-08519",
+    "description": "STRAPS, 100FT ROLL, 201 STEEL 832",
+    "unitOfMeasurement": "P",
+    "quantity": 3,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 420
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc062",
+    "rowLineNum": "UPR-SPM-ROW-4-149",
+    "sapNum": "AC-08520",
+    "description": "BUCKLES, BOX OF 100 PIECES, 201 STEEL 870",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 40,
+    "totalPriceEGP": 160
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc063",
+    "rowLineNum": "UPR-STPS-ROW-12-150",
+    "sapNum": "AC-08521",
+    "description": "Screw, BOX OF 100 PIECES, 201 STEEL 871",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 60,
+    "totalPriceEGP": 120
+  },
+  {
+    "carCode": [
+      "AA800"
+    ],
+    "partNum": "08gmc064",
+    "rowLineNum": "UPR-STPS-ROW-13-151",
+    "sapNum": "AC-08522",
+    "description": "Brake disk 08.B413 835",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 40,
+    "totalPriceEGP": 80
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad055",
+    "rowLineNum": "UPR-ACC-ROW-10-152",
+    "sapNum": "ES-03451",
+    "description": "Fuel Tank 1-1/2\" 156",
+    "unitOfMeasurement": "P",
+    "quantity": 30,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 3600
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad056",
+    "rowLineNum": "UPR-ACC-ROW-21-153",
+    "sapNum": "ES-03452",
+    "description": "Fuel Pump 1-1/2\" 110",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 150,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad057",
+    "rowLineNum": "UPR-ACC-ROW-28-154",
+    "sapNum": "ES-03453",
+    "description": "Battery 115",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 130,
+    "totalPriceEGP": 260
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad058",
+    "rowLineNum": "UPR-ACC-ROW-34-155",
+    "sapNum": "ES-03454",
+    "description": "Shock Absorber 123",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 97,
+    "totalPriceEGP": 194
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad059",
+    "rowLineNum": "UPR-BRVLV-ROW-19-156",
+    "sapNum": "ES-03455",
+    "description": "Engine Fan 188",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 180,
+    "totalPriceEGP": 360
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad060",
+    "rowLineNum": "UPR-CL-ROW-2-157",
+    "sapNum": "ES-03456",
+    "description": "Tire 20\" 130",
+    "unitOfMeasurement": "P",
+    "quantity": 600,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 420000
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad061",
+    "rowLineNum": "UPR-DHSV-ROW-15-158",
+    "sapNum": "ES-03457",
+    "description": "Pistons 2-1/3\" 159",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 280
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad062",
+    "rowLineNum": "UPR-DHSV-ROW-16-159",
+    "sapNum": "ES-03458",
+    "description": "Air Filtier 155",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 240,
+    "totalPriceEGP": 480
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad063",
+    "rowLineNum": "UPR-DHSV-ROW-17-160",
+    "sapNum": "ES-03459",
+    "description": "Axle 2-1/2\" 176",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 350,
+    "totalPriceEGP": 700
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad064",
+    "rowLineNum": "UPR-DHSV-ROW-76-161",
+    "sapNum": "ES-03460",
+    "description": "Side Mirrors 154",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 240
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad065",
+    "rowLineNum": "UPR-NPL-ROW-10-162",
+    "sapNum": "ES-03461",
+    "description": "Fog Light 187",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 170,
+    "totalPriceEGP": 170
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad066",
+    "rowLineNum": "UPR-NPL-ROW-52-163",
+    "sapNum": "ES-03462",
+    "description": "Rear Bumper Diffuser 3-1/2\" 177",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 1400
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad067",
+    "rowLineNum": "UPR-NPL-ROW-53-164",
+    "sapNum": "ES-03463",
+    "description": "Headlights 121",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 500,
+    "totalPriceEGP": 500
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad068",
+    "rowLineNum": "UPR-PKR-ROW-55-165",
+    "sapNum": "ES-03464",
+    "description": "Timing Belt 1-1/2\" 118",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 300,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad069",
+    "rowLineNum": "UPR-PKR-ROW-6-166",
+    "sapNum": "ES-03465",
+    "description": "Gear Box 143",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 560,
+    "totalPriceEGP": 560
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad070",
+    "rowLineNum": "UPR-SPMCIM-ROW-13-167",
+    "sapNum": "ES-03466",
+    "description": "Oli Pump, NIAL, 1-1/2\", 5KPSI 149",
+    "unitOfMeasurement": "P",
+    "quantity": 6,
+    "unitPriceEGP": 430,
+    "totalPriceEGP": 2580
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad071",
+    "rowLineNum": "UPR-SPMCIM-ROW-3-168",
+    "sapNum": "ES-03467",
+    "description": "INJECTION Pump, NIAL, 1-1/2\", 5KPSI 151",
+    "unitOfMeasurement": "P",
+    "quantity": 6,
+    "unitPriceEGP": 580,
+    "totalPriceEGP": 3480
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad072",
+    "rowLineNum": "UPR-SPMCIM-ROW-6-169",
+    "sapNum": "ES-03468",
+    "description": "HYDRAULIC Susbintion , 1/4\", INC 825, BARE LINE 111",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 400,
+    "totalPriceEGP": 800
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad073",
+    "rowLineNum": "UPR-SPMCIM-ROW-7-170",
+    "sapNum": "ES-03469",
+    "description": "STRAPS, 100FT ROLL, 201 STEEL 132",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 560
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad074",
+    "rowLineNum": "UPR-SPM-ROW-4-171",
+    "sapNum": "ES-03470",
+    "description": "BUCKLES, BOX OF 100 PIECES, 201 STEEL 170",
+    "unitOfMeasurement": "P",
+    "quantity": 6,
+    "unitPriceEGP": 40,
+    "totalPriceEGP": 240
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad075",
+    "rowLineNum": "UPR-STPS-ROW-12-172",
+    "sapNum": "ES-03471",
+    "description": "Screw, BOX OF 100 PIECES, 201 STEEL 171",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 60,
+    "totalPriceEGP": 120
+  },
+  {
+    "carCode": [
+      "AA900"
+    ],
+    "partNum": "09cad076",
+    "rowLineNum": "UPR-STPS-ROW-13-173",
+    "sapNum": "ES-03472",
+    "description": "Brake disk 08.B413 135",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 40,
+    "totalPriceEGP": 80
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl018",
+    "rowLineNum": "UPR-ACC-ROW-11-174",
+    "sapNum": "MY-01880",
+    "description": "Fuel Tank 1-1/2\" 056",
+    "unitOfMeasurement": "P",
+    "quantity": 4,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 480
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl019",
+    "rowLineNum": "UPR-ACC-ROW-27-175",
+    "sapNum": "MY-01881",
+    "description": "Fuel Pump 1-1/2\" 010",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 150,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl020",
+    "rowLineNum": "UPR-ACC-ROW-29-176",
+    "sapNum": "MY-01882",
+    "description": "Battery 015",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 130,
+    "totalPriceEGP": 130
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl021",
+    "rowLineNum": "UPR-ACC-ROW-31-177",
+    "sapNum": "MY-01883",
+    "description": "Shock Absorber 023",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 97,
+    "totalPriceEGP": 194
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl022",
+    "rowLineNum": "UPR-ACC-ROW-36-178",
+    "sapNum": "MY-01884",
+    "description": "Engine Fan 088",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 180,
+    "totalPriceEGP": 180
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl023",
+    "rowLineNum": "UPR-ACC-ROW-5-179",
+    "sapNum": "MY-01885",
+    "description": "Tire 22\" 030",
+    "unitOfMeasurement": "P",
+    "quantity": 30,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 21000
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl024",
+    "rowLineNum": "UPR-BRVLV-ROW-18-180",
+    "sapNum": "MY-01886",
+    "description": "Pistons 2-1/2\" 059",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 140
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl025",
+    "rowLineNum": "UPR-BRVLV-ROW-5-181",
+    "sapNum": "MY-01887",
+    "description": "Air Filtier 3 055",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 240,
+    "totalPriceEGP": 240
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl026",
+    "rowLineNum": "UPR-CL-ROW-2-182",
+    "sapNum": "MY-01888",
+    "description": "Axle 2-1/4\" 076",
+    "unitOfMeasurement": "P",
+    "quantity": 600,
+    "unitPriceEGP": 350,
+    "totalPriceEGP": 210000
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl027",
+    "rowLineNum": "UPR-DHSV-ROW-6-183",
+    "sapNum": "MY-01889",
+    "description": "Side Mirrors 054",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 120,
+    "totalPriceEGP": 240
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl028",
+    "rowLineNum": "UPR-DHSV-ROW-7-184",
+    "sapNum": "MY-01890",
+    "description": "Fog Light 087",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 170,
+    "totalPriceEGP": 340
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl029",
+    "rowLineNum": "UPR-DHSV-ROW-75-185",
+    "sapNum": "MY-01891",
+    "description": "Rear Bumper Diffuser 3-1/4\" 077",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 700,
+    "totalPriceEGP": 1400
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl030",
+    "rowLineNum": "UPR-DHSV-ROW-8-186",
+    "sapNum": "MY-01892",
+    "description": "Headlights 021",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 500,
+    "totalPriceEGP": 1000
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl031",
+    "rowLineNum": "UPR-NPL-ROW-23-187",
+    "sapNum": "MY-01893",
+    "description": "Timing Belt 1-1/2\" 018",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 300,
+    "totalPriceEGP": 300
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl032",
+    "rowLineNum": "UPR-NPL-ROW-28-188",
+    "sapNum": "MY-01894",
+    "description": "Gear Box 043",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 560,
+    "totalPriceEGP": 560
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl033",
+    "rowLineNum": "UPR-NPL-ROW-8-189",
+    "sapNum": "MY-01895",
+    "description": "Oli Pump, NIAL, 1-1/2\", 5KPSI 049",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 430,
+    "totalPriceEGP": 860
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl034",
+    "rowLineNum": "UPR-PKR-ROW-20-190",
+    "sapNum": "MY-01896",
+    "description": "INJECTION Pump, NIAL, 1-1/2\", 5KPSI 051",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 580,
+    "totalPriceEGP": 580
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl035",
+    "rowLineNum": "UPR-PKR-ROW-5-191",
+    "sapNum": "MY-01897",
+    "description": "HYDRAULIC Susbintion , 1/4\", INC 825, BARE LINE 011",
+    "unitOfMeasurement": "P",
+    "quantity": 1,
+    "unitPriceEGP": 400,
+    "totalPriceEGP": 400
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl036",
+    "rowLineNum": "UPR-STPS-ROW-12-192",
+    "sapNum": "MY-01898",
+    "description": "STRAPS, 100FT ROLL, 201 STEEL 033",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 140,
+    "totalPriceEGP": 280
+  },
+  {
+    "carCode": [
+      "AA1000"
+    ],
+    "partNum": "01tsl037",
+    "rowLineNum": "UPR-STPS-ROW-13-193",
+    "sapNum": "MY-01899",
+    "description": "BUCKLES, BOX OF 100 PIECES, 201 STEEL 070",
+    "unitOfMeasurement": "P",
+    "quantity": 2,
+    "unitPriceEGP": 40,
+    "totalPriceEGP": 80
+  }
+]

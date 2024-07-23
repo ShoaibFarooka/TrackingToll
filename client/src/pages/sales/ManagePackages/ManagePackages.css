@@ -1,0 +1,20 @@
+.manage-packages {
+    padding: 20px;
+}
+
+.manage-packages .btns-container {
+    display: flex;
+    gap: 20px;
+}
+
+.manage-packages h2 {
+    margin-bottom: 20px;
+}
+
+.manage-packages .ant-form-inline {
+    margin-bottom: 20px;
+}
+
+.manage-packages .ant-table {
+    margin-bottom: 40px;
+}

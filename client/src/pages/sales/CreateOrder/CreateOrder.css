@@ -1,0 +1,83 @@
+.create-order {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.create-order h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.create-order .ant-form-item {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 16px;
+}
+
+.create-order .ant-form-item input {
+    width: 100%;
+}
+
+.create-order .ant-form-inline .ant-form-item {
+    margin-right: 10px;
+}
+
+.create-order .ant-table-wrapper {
+    margin-bottom: 20px;
+}
+
+.create-order .flex {
+    display: flex;
+    align-items: center;
+}
+
+.create-order .flex-btns {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* .create-order .ant-btn-primary {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+} */
+
+/* .create-order .ant-table-tbody>tr>td {
+    padding: 10px 5px;
+} */
+
+.create-order .ant-btn-link {
+    padding: 0;
+}
+
+.create-order .ant-form-vertical .ant-form-item-label {
+    text-align: left;
+}
+
+.create-order .ant-form-vertical .ant-form-item {
+    margin-bottom: 12px;
+}
+
+.create-order .ant-form-vertical .ant-form-item .ant-form-item-control {
+    max-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .create-order {
+        padding: 10px;
+    }
+
+    .create-order .ant-form-item {
+        width: 100%;
+        max-width: none;
+    }
+
+    .create-order .ant-btn-primary {
+        width: 100%;
+    }
+}

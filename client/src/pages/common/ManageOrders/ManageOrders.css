@@ -1,0 +1,60 @@
+.manage-orders {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.manage-orders h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.manage-orders .ant-form-item {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 16px;
+}
+
+.manage-orders .ant-form-item input {
+    width: 100%;
+}
+
+.manage-orders .ant-form-inline .ant-form-item {
+    margin-right: 10px;
+}
+
+.manage-orders .ant-table-wrapper {
+    margin-bottom: 20px;
+}
+
+
+.manage-orders .flex {
+    display: flex;
+    align-items: center;
+}
+
+.manage-orders .flex-btns {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.manage-orders .ant-btn-link {
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .manage-orders {
+        padding: 10px;
+    }
+
+    .manage-orders .ant-form-item {
+        width: 100%;
+        max-width: none;
+    }
+
+    .manage-orders .ant-btn-primary {
+        width: 100%;
+    }
+}
