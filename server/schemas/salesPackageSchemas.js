@@ -22,6 +22,7 @@ const addSalesPackageSchema = yup.object().shape({
             : yup.array().of(yup.string().trim().required('Car code is required'))
     ),
     rowLineNum: yup.string().trim().required('Row line number is required'),
+    partNum: yup.string().trim().required('Part number is required'),
     sapNum: yup.string().trim().required('SAP number is required'),
     description: yup.string().trim().required('Description code is required'),
     unitOfMeasurement: yup.string().trim().required('Unit of measurement is required'),
