@@ -1,10 +1,8 @@
 const Order = require('../models/orderModel');
 const ExcelJS = require('exceljs');
-const path = require('path');
-const fs = require('fs');
 
 const createOrder = async (data) => {
-    const { userTeam, userId, teamCode, teamComments, clientInfo, salesOrderItems, serviceOrderItems, currentTeamProcessing } = data;
+    const { userTeam, userId, teamCode, teamComments, clientInfo, salesOrderItems, serviceOrderItems, currentTeamProcessing, dtNumber, wptsNumber, cparNumber } = data;
     const initialTeamResponse = {
         teamName: userTeam,
         user: userId,
@@ -19,7 +17,10 @@ const createOrder = async (data) => {
         initialServiceOrderItems: serviceOrderItems,
         status: 'processing',
         currentTeamProcessing,
-        teamResponses: [initialTeamResponse]
+        teamResponses: [initialTeamResponse],
+        dtNumber,
+        wptsNumber,
+        cparNumber
     };
     const order = new Order(newOrder);
     await order.save();
@@ -57,7 +58,7 @@ const getAllOrders = async () => {
     }
 };
 
-const updateTeamResponse = async (orderId, userId, userTeam, teamCode, teamComments, status) => {
+const updateTeamResponse = async (orderId, userId, userTeam, teamCode, teamComments, status, dtNumber, wptsNumber, cparNumber) => {
     const order = await Order.findById(orderId);
     if (!order) {
         throw new Error('Order not found');
@@ -83,11 +84,21 @@ const updateTeamResponse = async (orderId, userId, userTeam, teamCode, teamComme
         order.currentTeamProcessing = teamSequence[currentIndex - 1] || order.currentTeamProcessing;
     }
 
+    if (dtNumber) {
+        order.dtNumber = dtNumber;
+    }
+    if (wptsNumber) {
+        order.wptsNumber = wptsNumber;
+    }
+    if (cparNumber) {
+        order.cparNumber = cparNumber;
+    }
+
     await order.save();
     return order;
 };
 
-const approveOrder = async (orderId, userId, userTeam, teamCode, teamComments, status, finalSalesOrderItems, finalServiceOrderItems, engineers) => {
+const approveOrder = async (orderId, userId, userTeam, teamCode, teamComments, status, finalSalesOrderItems, finalServiceOrderItems, engineers, dtNumber, wptsNumber, cparNumber) => {
     const order = await Order.findById(orderId);
     if (!order) {
         throw new Error('Order not found');
@@ -107,6 +118,15 @@ const approveOrder = async (orderId, userId, userTeam, teamCode, teamComments, s
     order.engineers = engineers;
     order.currentTeamProcessing = '-';
     order.status = 'completed';
+    if (dtNumber) {
+        order.dtNumber = dtNumber;
+    }
+    if (wptsNumber) {
+        order.wptsNumber = wptsNumber;
+    }
+    if (cparNumber) {
+        order.cparNumber = cparNumber;
+    }
     await order.save();
     return order;
 };
@@ -153,10 +173,15 @@ const searchOrderItems = async (filters) => {
         carCodes,
         equipmentHeaderType,
         equipmentHeaderNumbers,
+        jdeHeaderType,
+        jdeHeaderNumbers,
         orderStatus
     } = filters;
+
+    // Initialize the match query
     const matchQuery = {};
 
+    // Handle clients filter with case-insensitive comparison
     if (clients && clients.length > 0) {
         matchQuery.$expr = {
             $in: [
@@ -165,33 +190,53 @@ const searchOrderItems = async (filters) => {
             ]
         };
     }
+
+    // Handle locations filter with case-insensitive comparison
     if (locations && locations.length > 0) {
         matchQuery.$expr = {
+            ...matchQuery.$expr, // Preserve existing conditions
             $in: [
                 { $toLower: '$clientInfo.location' },
                 locations.map(location => location.toLowerCase())
             ]
         };
     }
+
+    // Handle date range filter
     if (selectedDateRange && selectedDateRange.length === 2 && selectedDateRange[0] && selectedDateRange[1]) {
-        matchQuery.$expr = {
-            $and: [
-                { $gte: [{ $dateFromString: { dateString: { $dateToString: { format: "%Y-%m-%d", date: "$updatedAt" } } } }, new Date(selectedDateRange[0])] },
-                { $lte: [{ $dateFromString: { dateString: { $dateToString: { format: "%Y-%m-%d", date: "$updatedAt" } } } }, new Date(selectedDateRange[1])] }
-            ]
+        matchQuery.updatedAt = {
+            $gte: new Date(selectedDateRange[0]),
+            $lte: new Date(selectedDateRange[1])
         };
     }
+
+    // Handle order header filter with case-insensitive comparison
     if (orderHeaderType && orderHeaderNumbers && orderHeaderNumbers.length > 0) {
         matchQuery.$expr = {
+            ...matchQuery.$expr, // Preserve existing conditions
             $in: [
                 { $toLower: `$clientInfo.${orderHeaderType}` },
                 orderHeaderNumbers.map(orderHeaderNumber => orderHeaderNumber.toLowerCase())
             ]
         };
     }
+
+    // Handle JDE header filter with case-insensitive comparison
+    if (jdeHeaderType && jdeHeaderNumbers && jdeHeaderNumbers.length > 0) {
+        matchQuery.$expr = {
+            ...matchQuery.$expr, // Preserve existing conditions
+            $in: [
+                { $toLower: `$${jdeHeaderType}` },
+                jdeHeaderNumbers.map(jdeHeaderNumber => jdeHeaderNumber.toLowerCase())
+            ]
+        };
+    }
+
+    // Handle order status filter
     if (orderStatus) {
         matchQuery.status = orderStatus;
     }
+
     console.log('Match Query: ', matchQuery);
 
     const lookupStage = {
@@ -281,10 +326,165 @@ const searchOrderItems = async (filters) => {
             });
         });
     });
+
     console.log('Orders: ', orders);
     console.log('Items: ', formattedData);
     return formattedData;
 };
+
+// const searchOrderItems = async (filters) => {
+//     console.log(filters);
+//     const {
+//         clients,
+//         locations,
+//         selectedDateRange,
+//         orderHeaderType,
+//         orderHeaderNumbers,
+//         carCodes,
+//         equipmentHeaderType,
+//         equipmentHeaderNumbers,
+//         jdeHeaderType,
+//         jdeHeaderNumbers,
+//         orderStatus
+//     } = filters;
+//     const matchQuery = {};
+
+//     if (clients && clients.length > 0) {
+//         matchQuery.$expr = {
+//             $in: [
+//                 { $toLower: '$clientInfo.customerName' },
+//                 clients.map(client => client.toLowerCase())
+//             ]
+//         };
+//     }
+//     if (locations && locations.length > 0) {
+//         matchQuery.$expr = {
+//             $in: [
+//                 { $toLower: '$clientInfo.location' },
+//                 locations.map(location => location.toLowerCase())
+//             ]
+//         };
+//     }
+//     if (selectedDateRange && selectedDateRange.length === 2 && selectedDateRange[0] && selectedDateRange[1]) {
+//         matchQuery.$expr = {
+//             $and: [
+//                 { $gte: [{ $dateFromString: { dateString: { $dateToString: { format: "%Y-%m-%d", date: "$updatedAt" } } } }, new Date(selectedDateRange[0])] },
+//                 { $lte: [{ $dateFromString: { dateString: { $dateToString: { format: "%Y-%m-%d", date: "$updatedAt" } } } }, new Date(selectedDateRange[1])] }
+//             ]
+//         };
+//     }
+//     if (orderHeaderType && orderHeaderNumbers && orderHeaderNumbers.length > 0) {
+//         matchQuery.$expr = {
+//             $in: [
+//                 { $toLower: `$clientInfo.${orderHeaderType}` },
+//                 orderHeaderNumbers.map(orderHeaderNumber => orderHeaderNumber.toLowerCase())
+//             ]
+//         };
+//     }
+//     if (jdeHeaderType && jdeHeaderNumbers && jdeHeaderNumbers.length > 0) {
+//         matchQuery.$expr = {
+//             $in: [
+//                 { $toLower: `${jdeHeaderType}` },
+//                 jdeHeaderNumbers.map(jdeHeaderNumbers => jdeHeaderNumbers.toLowerCase())
+//             ]
+//         };
+//     }
+//     if (orderStatus) {
+//         matchQuery.status = orderStatus;
+//     }
+//     console.log('Match Query: ', matchQuery);
+
+//     const lookupStage = {
+//         $lookup: {
+//             from: 'sales-packages',
+//             localField: orderStatus === 'completed' ? 'finalSalesOrderItems.package' : 'initialSalesOrderItems.package',
+//             foreignField: '_id',
+//             as: 'salesItems'
+//         }
+//     };
+
+//     const addFieldsStage = {
+//         $addFields: {
+//             salesItems: {
+//                 $map: {
+//                     input: "$salesItems",
+//                     as: "item",
+//                     in: {
+//                         itemInfo: "$$item",
+//                         itemQuantity: {
+//                             $cond: {
+//                                 if: { $eq: ["$status", "completed"] },
+//                                 then: { $arrayElemAt: ["$finalSalesOrderItems.quantity", { $indexOfArray: ["$finalSalesOrderItems.package", "$$item._id"] }] },
+//                                 else: { $arrayElemAt: ["$initialSalesOrderItems.quantity", { $indexOfArray: ["$initialSalesOrderItems.package", "$$item._id"] }] }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     };
+
+//     const projectStage = {
+//         $project: {
+//             orderDate: { $dateToString: { format: "%Y-%m-%d", date: "$updatedAt" } },
+//             clientInfo: 1,
+//             orderStatus: "$status",
+//             salesItems: {
+//                 $filter: {
+//                     input: '$salesItems',
+//                     as: 'item',
+//                     cond: {
+//                         $and: [
+//                             ...(carCodes && carCodes.length > 0 ? [{
+//                                 $anyElementTrue: {
+//                                     $map: {
+//                                         input: '$$item.itemInfo.carCode',
+//                                         as: 'code',
+//                                         in: { $in: [{ $toLower: '$$code' }, carCodes.map(carCode => carCode.toLowerCase())] }
+//                                     }
+//                                 }
+//                             }] : []),
+//                             ...(equipmentHeaderType && equipmentHeaderNumbers && equipmentHeaderNumbers.length > 0 ? [{
+//                                 $in: [{ $toLower: `$$item.itemInfo.${equipmentHeaderType}` }, equipmentHeaderNumbers.map(num => num.toLowerCase())]
+//                             }] : [])
+//                         ]
+//                     }
+//                 }
+//             }
+//         }
+//     };
+
+//     const pipeline = [
+//         { $match: matchQuery },
+//         lookupStage,
+//         addFieldsStage,
+//         projectStage
+//     ];
+
+//     const orders = await Order.aggregate(pipeline);
+
+//     const formattedData = [];
+
+//     orders.forEach(order => {
+//         order.salesItems.forEach(item => {
+//             const { _id, __v, ...itemInfoWithoutIdAndVersion } = item.itemInfo;
+//             formattedData.push({
+//                 orderId: order._id,
+//                 orderDate: order.orderDate,
+//                 orderStatus: order.orderStatus,
+//                 customerName: order.clientInfo.customerName,
+//                 location: order.clientInfo.location,
+//                 ...itemInfoWithoutIdAndVersion,
+//                 quantity: item.itemQuantity,
+//                 unitPriceEGP: item.itemInfo.unitPriceEGP,
+//                 totalPriceEGP: item.itemInfo.unitPriceEGP * item.itemQuantity
+//             });
+//         });
+//     });
+//     console.log('Orders: ', orders);
+//     console.log('Items: ', formattedData);
+//     return formattedData;
+// };
 
 const exportItemsCSV = async (orderItems) => {
     const workbook = new ExcelJS.Workbook();

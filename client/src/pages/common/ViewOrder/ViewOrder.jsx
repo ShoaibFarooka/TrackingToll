@@ -57,7 +57,10 @@ const ViewOrder = React.memo(({ userTeam }) => {
         const payload = {
             teamCode: values.code,
             teamComments: values.comments,
-            status
+            status,
+            dtNumber: values.dtNumber,
+            wptsNumber: values.wptsNumber,
+            cparNumber: values.cparNumber,
         };
         dispatch(ShowLoading());
         try {
@@ -110,6 +113,9 @@ const ViewOrder = React.memo(({ userTeam }) => {
         const payload = {
             teamCode: values.code,
             teamComments: values.comments,
+            dtNumber: values.dtNumber,
+            wptsNumber: values.wptsNumber,
+            cparNumber: values.cparNumber,
             status: 'approved',
             finalSalesOrderItems,
             finalServiceOrderItems,
@@ -141,6 +147,7 @@ const ViewOrder = React.memo(({ userTeam }) => {
                         <p><strong>Location:</strong> {selectedOrder.clientInfo.location}</p>
                         <p><strong>MR Number:</strong> {selectedOrder.clientInfo.mrNumber}</p>
                         <p><strong>RO Number:</strong> {selectedOrder.clientInfo.roNumber}</p>
+                        <p><strong>Order Creation Date:</strong> {new Date(selectedOrder.createdAt).toDateString()}</p>
                     </div>
 
                     <div className="order-section">
@@ -211,6 +218,7 @@ const ViewOrder = React.memo(({ userTeam }) => {
                                 <p><strong>User:</strong> {response.user.name} ({response.user.email})</p>
                                 <p><strong>Status:</strong> {response.status}</p>
                                 <p><strong>Comments:</strong> {response.comments}</p>
+                                <p><strong>DT Number:</strong> {selectedOrder.dtNumber || ''}</p>
                             </div>
                         ))}
                     </div>
@@ -227,7 +235,7 @@ const ViewOrder = React.memo(({ userTeam }) => {
                             ))}
                         </div>
                     }
-                    {((selectedOrder.currentTeamProcessing === 'field_operation' && (userTeam === 'field_operation' || userTeam === 'admin') ) && selectedOrder.status === 'processing') &&
+                    {((selectedOrder.currentTeamProcessing === 'field_operation' && (userTeam === 'field_operation' || userTeam === 'admin')) && selectedOrder.status === 'processing') &&
                         <div className='order-section'>
                             <h3>Engineers List</h3>
                             <EngineersList data={engineers} setData={setEngineers} />

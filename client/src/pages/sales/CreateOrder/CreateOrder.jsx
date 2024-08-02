@@ -145,7 +145,10 @@ const CreateOrder = () => {
             salesOrderItems: formattedSalesOrderItems,
             serviceOrderItems: formattedServiceOrderItems,
             teamCode: teamResponse.code,
-            teamComments: teamResponse.comments
+            teamComments: teamResponse.comments,
+            dtNumber: teamResponse.dtNumber,
+            wptsNumber: teamResponse.wptsNumber,
+            cparNumber: teamResponse.cparNumber,
         };
         console.log('Order submitted:', order);
         dispatch(ShowLoading());

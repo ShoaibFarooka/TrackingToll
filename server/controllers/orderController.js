@@ -5,22 +5,6 @@ const userService = require('../services/userService');
 const emailService = require('../services/emailService');
 const pdfService = require('../services/pdfService');
 
-const test = async () => {
-    const users = await userService.fetchAllUsersForEmail();
-    const order = {
-        _id: '12344',
-    };
-    users.forEach(async (user) => {
-        const emailSubject = `Tracking Toll Update!`;
-        const emailText = `Hello ${user.name},\n\nWe wanted to inform you that a new order with id "${order._id}" has been created.`;
-
-        await emailService.sendEmail(user.email, emailSubject, emailText);
-    });
-
-};
-
-// test();
-
 const CreateOrder = async (req, res) => {
     try {
         const userId = res.locals.payload.id;
@@ -74,11 +58,11 @@ const GetAllOrders = async (req, res) => {
 const UpdateTeamResponse = async (req, res) => {
     try {
         const { orderId } = req.params;
-        const { teamCode, teamComments, status } = req.body;
+        const { teamCode, teamComments, status, dtNumber, wptsNumber, cparNumber } = req.body;
         const userId = res.locals.payload.id;
         const userTeam = res.locals.payload.team;
 
-        const order = await orderService.updateTeamResponse(orderId, userId, userTeam, teamCode, teamComments, status);
+        const order = await orderService.updateTeamResponse(orderId, userId, userTeam, teamCode, teamComments, status, dtNumber, wptsNumber, cparNumber);
         const allUsers = await userService.fetchAllUsersForEmail();
         allUsers.forEach(async (user) => {
             const emailSubject = `VMI Tracking tool notification from RO# ${order.clientInfo.roNumber} MR# ${order.clientInfo.mrNumber} Custome Name ${order.clientInfo.customerName} Car Model ${order.clientInfo.carModel}`;
@@ -108,10 +92,10 @@ const UpdateTeamResponse = async (req, res) => {
 const ApproveOrder = async (req, res) => {
     try {
         const { orderId } = req.params;
-        const { teamCode, teamComments, status, finalSalesOrderItems, finalServiceOrderItems, engineers } = req.body;
+        const { teamCode, teamComments, status, finalSalesOrderItems, finalServiceOrderItems, engineers, dtNumber, wptsNumber, cparNumber } = req.body;
         const userId = res.locals.payload.id;
         const userTeam = res.locals.payload.team;
-        const order = await orderService.approveOrder(orderId, userId, userTeam, teamCode, teamComments, status, finalSalesOrderItems, finalServiceOrderItems, engineers);
+        const order = await orderService.approveOrder(orderId, userId, userTeam, teamCode, teamComments, status, finalSalesOrderItems, finalServiceOrderItems, engineers, dtNumber, wptsNumber, cparNumber);
         res.status(200).send('Order approved successfully');
     } catch (error) {
         if (error.message === 'Order not found') {

@@ -9,6 +9,7 @@ import MultipleInput from '../MultipleInput/MultipleInput';
 import SelectOption from '../SelectOption/SelectOption';
 import orderHeaderOptions from '../../options/orderHeaderOptions';
 import equipmentHeaderOptions from '../../options/equipmentHeaderOptions';
+import jdeHeaderOptions from '../../options/jdeHeaderOptions';
 import orderStateOptions from '../../options/orderStateOptions';
 import orderService from '../../../../../services/orderService';
 
@@ -21,6 +22,8 @@ const SearchForm = React.memo(({ orderItems, setOrderItems }) => {
     const [carCodes, setCarCodes] = useState([]);
     const [equipmentHeaderType, setEquipmentHeaderType] = useState('');
     const [equipmentHeaderNumbers, setEquipmentHeaderNumbers] = useState([]);
+    const [jdeHeaderType, setJdeHeaderType] = useState('');
+    const [jdeHeaderNumbers, setJdeHeaderNumbers] = useState([]);
     const [orderStatus, setOrderStatus] = useState('');
 
     const dispatch = useDispatch();
@@ -35,6 +38,8 @@ const SearchForm = React.memo(({ orderItems, setOrderItems }) => {
             carCodes,
             equipmentHeaderType,
             equipmentHeaderNumbers,
+            jdeHeaderType,
+            jdeHeaderNumbers,
             orderStatus
         };
         // console.log('Data: ', data);
@@ -107,6 +112,18 @@ const SearchForm = React.memo(({ orderItems, setOrderItems }) => {
                 <div className="form-item">
                     <label className="label">{`Enter ${equipmentHeaderType}s:`}</label>
                     <MultipleInput tags={equipmentHeaderNumbers} setTags={setEquipmentHeaderNumbers} placeholder={`Enter ${equipmentHeaderType}s`} />
+                </div>
+            }
+
+            <div className="form-item">
+                <label className="label">JDE Header Type:</label>
+                <SelectOption setValue={setJdeHeaderType} OptionsData={jdeHeaderOptions} placeholder="Select equipment header" />
+            </div>
+
+            {jdeHeaderType &&
+                <div className="form-item">
+                    <label className="label">{`Enter ${jdeHeaderType}s:`}</label>
+                    <MultipleInput tags={jdeHeaderNumbers} setTags={setJdeHeaderNumbers} placeholder={`Enter ${jdeHeaderType}s`} />
                 </div>
             }
 

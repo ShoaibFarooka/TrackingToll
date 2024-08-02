@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const cors = require('cors');
 const cookieParser = require("cookie-parser");
 require('dotenv').config();
@@ -19,6 +20,7 @@ const corsOptions = {
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors(corsOptions));
+app.use('/static', express.static(path.join(__dirname, 'static')));
 
 // Connection URL
 const DB = process.env.DB_URI;

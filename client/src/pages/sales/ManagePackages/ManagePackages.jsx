@@ -11,7 +11,7 @@ import serviceColumns from './columns/serviceColumns';
 import salesPackageService from '../../../services/salesPackageService';
 import servicePackageService from '../../../services/servicePackageService';
 
-const ManagePackages = ({ userTeam }) => {
+const ManagePackages = () => {
     const [salesPackages, setSalesPackages] = useState([]);
     const [servicePackages, setServicePackages] = useState([]);
     const [isModalVisible, setIsModalVisible] = useState(false);
@@ -149,16 +149,14 @@ const ManagePackages = ({ userTeam }) => {
 
     return (
         <div className="manage-packages">
-            {userTeam !== "operations_support" &&
-                <div className='btns-container'>
-                    <Button type="primary" onClick={() => handleAddPackage('sales')}>
-                        Add Sales Package
-                    </Button>
-                    <Button type="primary" onClick={() => handleAddPackage('service')}>
-                        Add Service Package
-                    </Button>
-                </div>
-            }
+            <div className='btns-container'>
+                <Button type="primary" onClick={() => handleAddPackage('sales')}>
+                    Add Sales Package
+                </Button>
+                <Button type="primary" onClick={() => handleAddPackage('service')}>
+                    Add Service Package
+                </Button>
+            </div>
             <h2>Search Sales Packages</h2>
             <SearchForm
                 form={salesForm}

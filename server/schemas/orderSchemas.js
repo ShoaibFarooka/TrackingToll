@@ -24,7 +24,10 @@ const createOrderSchema = yup.object().shape({
     salesOrderItems: yup.array().of(orderItemSchema).required('Sales order items are required'),
     serviceOrderItems: yup.array().of(orderItemSchema).required('Service order items are required'),
     teamCode: yup.string().trim().required('Team code is required'),
-    teamComments: yup.string().trim().required('Team comments are required')
+    teamComments: yup.string().trim().required('Team comments are required'),
+    dtNumber: yup.string().trim(),
+    wptsNumber: yup.string().trim(),
+    cparNumber: yup.string().trim(),
 }).test('at-least-one-item', 'At least one of salesOrderItems or serviceOrderItems must contain at least one item', function (value) {
     const { salesOrderItems, serviceOrderItems } = value;
     return (salesOrderItems && salesOrderItems.length > 0) || (serviceOrderItems && serviceOrderItems.length > 0);
@@ -46,6 +49,9 @@ const updateOrderSchema = yup.object().shape({
     teamCode: yup.string().trim().required('Team code is required'),
     teamComments: yup.string().trim().required('Team comments are required'),
     status: yup.string().trim().required('Status is required'),
+    dtNumber: yup.string().trim(),
+    wptsNumber: yup.string().trim(),
+    cparNumber: yup.string().trim(),
 }).noUnknown(true, 'Unknown field in update order data');
 
 const approveOrderSchema = yup.object().shape({
@@ -55,9 +61,12 @@ const approveOrderSchema = yup.object().shape({
     finalSalesOrderItems: yup.array().of(orderItemSchema).required('Final sales order items are required'),
     finalServiceOrderItems: yup.array().of(orderItemSchema).required('Final service order items are required'),
     engineers: yup.array().of(engineerSchema).required('Engineers list is required'),
+    dtNumber: yup.string().trim(),
+    wptsNumber: yup.string().trim(),
+    cparNumber: yup.string().trim(),
 }).test('at-least-one-item', 'At least one of finalSalesOrderItems or finalServiceOrderItems must contain at least one item', function (value) {
     const { finalSalesOrderItems, finalServiceOrderItems } = value;
-    return (finalServiceOrderItems && finalServiceOrderItems.length > 0) || (finalServiceOrderItems && finalServiceOrderItems.length > 0);
+    return (finalSalesOrderItems && finalSalesOrderItems.length > 0) || (finalServiceOrderItems && finalServiceOrderItems.length > 0);
 }).noUnknown(true, 'Unknown field in update order data');
 
 

@@ -11,3 +11,7 @@ handlebars.registerHelper('mul', function (a, b) {
 handlebars.registerHelper('mergeArr', function (a) {
     return a.join(', ');
 });
+
+handlebars.registerHelper('formatDate', function(dateString) {
+    return new Date(dateString).toDateString();
+});

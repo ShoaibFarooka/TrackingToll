@@ -62,7 +62,22 @@ const orderSchema = new Schema({
     status: { type: String, required: true, enum: ['processing', 'completed', 'rejected'] },
     currentTeamProcessing: { type: String, required: true },
     teamResponses: [teamResponseSchema],
-    engineers: [engineerSchema]
+    engineers: [engineerSchema],
+    dtNumber: {
+        type: String,
+        default: '',
+        trim: true
+    },
+    wptsNumber: {
+        type: String,
+        default: '',
+        trim: true
+    },
+    cparNumber: {
+        type: String,
+        default: '',
+        trim: true
+    }
 },
     { timestamps: true }
 );

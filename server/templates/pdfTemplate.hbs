@@ -5,18 +5,60 @@
     <meta charset="UTF-8">
     <title>Order Details</title>
     <style>
-        /* Define your CSS styles */
-        .order-section {
-            margin-bottom: 20px;
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            padding: 0;
+            color: #333;
         }
 
-        .order-item {
-            margin-bottom: 10px;
+        .header,
+        .footer {
+            width: 100%;
+            left: 0;
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            top: 0;
+        }
+
+        .footer {
+            margin-top: 20px;
+            bottom: 0;
+        }
+
+        .content {
+            margin-top: 60px;
+            padding: 0 20px;
+        }
+
+        .header img {
+            max-height: 50px;
+        }
+
+        .header h1 {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .footer p {
+            font-size: 12px;
+            margin: 0;
+        }
+
+        .order-section {
+            margin-bottom: 20px;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
+            margin-bottom: 20px;
         }
 
         th,
@@ -29,12 +71,24 @@
         th {
             background-color: #f2f2f2;
         }
+
+        h3 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
     </style>
 </head>
 
 <body>
-    <div class='view-order'>
-        <div>
+    <div class="header">
+        <img src="http://localhost:5112/static/images/logo.png" alt="Company Logo">
+        <h1>Tracking Toll</h1>
+    </div>
+
+    <div class="content">
+        <div class="view-order">
             <div class="order-section">
                 <h3>Client Information</h3>
                 <p><strong>Car Chassis Number:</strong> {{ data.clientInfo.carChassisNumber }}</p>
@@ -45,6 +99,7 @@
                 <p><strong>Location:</strong> {{ data.clientInfo.location }}</p>
                 <p><strong>MR Number:</strong> {{ data.clientInfo.mrNumber }}</p>
                 <p><strong>RO Number:</strong> {{ data.clientInfo.roNumber }}</p>
+                <p><strong>Order Creation Date:</strong> {{formatDate data.createdAt}}</p>
             </div>
 
             <div class="order-section">
@@ -67,7 +122,7 @@
                         {{#each data.initialSalesOrderItems}}
                         <tr>
                             <td>{{ mergeArr package.carCode }}</td>
-                            <td>{{ package.partNum}}</td>
+                            <td>{{ package.partNum }}</td>
                             <td>{{ package.rowLineNum }}</td>
                             <td>{{ package.sapNum }}</td>
                             <td>{{ package.description }}</td>
@@ -100,7 +155,7 @@
                         {{#each data.initialServiceOrderItems}}
                         <tr>
                             <td>{{ package.carCode }}</td>
-                            <td>{{ package.tableNum}}</td>
+                            <td>{{ package.tableNum }}</td>
                             <td>{{ package.itemNum }}</td>
                             <td>{{ package.description }}</td>
                             <td>{{ package.unitOfMeasurement }}</td>
@@ -134,7 +189,7 @@
                         {{#each data.finalSalesOrderItems}}
                         <tr>
                             <td>{{ mergeArr package.carCode }}</td>
-                            <td>{{ package.partNum}}</td>
+                            <td>{{ package.partNum }}</td>
                             <td>{{ package.rowLineNum }}</td>
                             <td>{{ package.sapNum }}</td>
                             <td>{{ package.description }}</td>
@@ -167,7 +222,7 @@
                         {{#each data.finalServiceOrderItems}}
                         <tr>
                             <td>{{ package.carCode }}</td>
-                            <td>{{ package.tableNum}}</td>
+                            <td>{{ package.tableNum }}</td>
                             <td>{{ package.itemNum }}</td>
                             <td>{{ package.description }}</td>
                             <td>{{ package.unitOfMeasurement }}</td>
@@ -190,6 +245,7 @@
                             <th>User</th>
                             <th>Status</th>
                             <th>Comments</th>
+                            <th>DT Number</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -199,6 +255,7 @@
                             <td>{{ user.name }} ({{ user.email }})</td>
                             <td>{{ status }}</td>
                             <td>{{ comments }}</td>
+                            <td>{{#if ../data.dtNumber}}{{../data.dtNumber}}{{else}}{{/if}}</td>
                         </tr>
                         {{/each}}
                     </tbody>
@@ -232,6 +289,11 @@
             {{/ifeq}}
         </div>
     </div>
+
+    <div class="footer">
+        <p>© 2024 Tracking Tool Company, Inc. All rights reserved.</p>
+    </div>
+
 </body>
 
 </html>
