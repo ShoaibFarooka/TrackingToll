@@ -246,6 +246,7 @@
                             <th>Status</th>
                             <th>Comments</th>
                             <th>DT Number</th>
+                            <th>Action Date</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -256,6 +257,7 @@
                             <td>{{ status }}</td>
                             <td>{{ comments }}</td>
                             <td>{{#if ../data.dtNumber}}{{../data.dtNumber}}{{else}}{{/if}}</td>
+                            <td>{{formatDate timestamp}}</td>
                         </tr>
                         {{/each}}
                     </tbody>

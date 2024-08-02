@@ -219,6 +219,7 @@ const ViewOrder = React.memo(({ userTeam }) => {
                                 <p><strong>Status:</strong> {response.status}</p>
                                 <p><strong>Comments:</strong> {response.comments}</p>
                                 <p><strong>DT Number:</strong> {selectedOrder.dtNumber || ''}</p>
+                                <p><strong>Action Date:</strong> {new Date(response.timestamp).toDateString()}</p>
                             </div>
                         ))}
                     </div>
