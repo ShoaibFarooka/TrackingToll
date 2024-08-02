@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from 'antd';
 import { FilePdfOutlined } from '@ant-design/icons';
 
-const createOrderColumns = (handleViewOrder, handleGeneratePDF) => [
+const createOrderColumns = (handleViewOrder, handleGeneratePDF, handleDeleteOrder, userTeam) => [
     {
         title: 'Order ID',
         dataIndex: '_id',
@@ -29,7 +29,10 @@ const createOrderColumns = (handleViewOrder, handleGeneratePDF) => [
         render: (text, record) => (
             <>
                 <Button onClick={() => handleViewOrder(record)} style={{ marginRight: 8 }}>View</Button>
-                <Button onClick={() => handleGeneratePDF(record)} type="primary" icon={<FilePdfOutlined />}>PDF</Button>
+                <Button onClick={() => handleGeneratePDF(record)} style={{ marginRight: 8 }} type="primary" icon={<FilePdfOutlined />}>PDF</Button>
+                {(userTeam === 'sales' || userTeam === 'admin') &&
+                    <Button onClick={() => handleDeleteOrder(record)} type="primary" danger>Delete</Button>
+                }
             </>
         ),
     },

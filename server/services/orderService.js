@@ -535,6 +535,16 @@ const exportItemsCSV = async (orderItems) => {
     return buffer;
 };
 
+const deleteOrderById = async (orderId) => {
+    const order = await Order.findByIdAndDelete(orderId);
+    if (!order) {
+        throw new Error('Order not found');
+    }
+    else {
+        return order;
+    }
+};
+
 module.exports = {
     createOrder,
     getAllOrders,
@@ -542,5 +552,6 @@ module.exports = {
     approveOrder,
     getOrderById,
     searchOrderItems,
-    exportItemsCSV
+    exportItemsCSV,
+    deleteOrderById
 };

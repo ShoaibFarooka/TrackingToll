@@ -69,4 +69,12 @@ router.get(
     controller.DownloadOrderPDF
 );
 
+router.delete(
+    "/delete-order-by-id/:orderId",
+    authMiddleware.stripToken,
+    authMiddleware.verifyAccessToken,
+    validationMiddleware.validateParams(orderSchemas.orderIdSchema),
+    controller.DeleteOrderById
+);
+
 module.exports = router;

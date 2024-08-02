@@ -78,6 +78,15 @@ const orderService = {
             throw error;
         }
     },
+    deleteOrderById: async (id) => {
+        try {
+            const response = await axiosInstance.delete(`/api/orders/delete-order-by-id/${id}`);
+            return response.data;
+        } catch (error) {
+            console.error('Error while deleting order:', error);
+            throw error;
+        }
+    },
 };
 
 export default orderService;

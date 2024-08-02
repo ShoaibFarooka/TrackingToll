@@ -172,6 +172,21 @@ const DownloadOrderPDF = async (req, res) => {
     }
 };
 
+const DeleteOrderById = async (req, res) => {
+    try {
+        const { orderId } = req.params;
+        await orderService.deleteOrderById(orderId);
+        res.status(200).send('Order deleted successfully!');
+    } catch (error) {
+        console.log(error);
+        if (error.message === 'Order not found') {
+            res.status(404).send(error.message);
+        } else {
+            res.status(500).send('Internal Server Error');
+        }
+    }
+};
+
 module.exports = {
     CreateOrder,
     GetAllOrders,
@@ -180,5 +195,6 @@ module.exports = {
     GetOrderById,
     SearchOrderItems,
     ExportItemsCSV,
-    DownloadOrderPDF
+    DownloadOrderPDF,
+    DeleteOrderById
 };
