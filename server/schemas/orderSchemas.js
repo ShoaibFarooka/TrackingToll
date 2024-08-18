@@ -10,8 +10,8 @@ const clientInfoSchema = yup.object().shape({
     contactNumber: yup.string().trim().required('Contact number is required'),
     customerName: yup.string().trim().required('Customer name is required'),
     location: yup.string().trim().required('Location is required'),
-    mrNumber: yup.string().trim().required('MR number is required'),
-    roNumber: yup.string().trim().required('RO number is required')
+    mrNumber: yup.string().trim(),
+    roNumber: yup.string().trim()
 }).noUnknown(true, 'Unknown field in client info');
 
 const orderItemSchema = yup.object().shape({

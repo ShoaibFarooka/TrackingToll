@@ -8,8 +8,8 @@ const clientInfoSchema = new Schema({
     contactNumber: { type: String, required: true },
     customerName: { type: String, required: true },
     location: { type: String, required: true },
-    mrNumber: { type: String, required: true },
-    roNumber: { type: String, required: true },
+    mrNumber: { type: String, default: '' },
+    roNumber: { type: String, default: '' },
 },
     { _id: false }
 );

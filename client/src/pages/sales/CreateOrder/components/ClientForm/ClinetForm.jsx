@@ -1,12 +1,23 @@
 import React from 'react';
 import { Form, Input } from 'antd';
 
+const initialValues = {
+    mrNumber: '',
+    roNumber: '',
+    carNumber: '',
+    carChassisNumber: '',
+    carModel: '',
+    location: '',
+    customerName: '',
+    contactNumber: ''
+};
+
 const ClientForm = React.memo(({ form }) => (
-    <Form form={form} layout="vertical">
-        <Form.Item name="mrNumber" label="MR Number" rules={[{ required: true }]}>
+    <Form form={form} layout="vertical" initialValues={initialValues}>
+        <Form.Item name="mrNumber" label="MR Number" rules={[{ required: false }]}>
             <Input />
         </Form.Item>
-        <Form.Item name="roNumber" label="RO Number" rules={[{ required: true }]}>
+        <Form.Item name="roNumber" label="RO Number" rules={[{ required: false }]}>
             <Input />
         </Form.Item>
         <Form.Item name="carNumber" label="Car Number" rules={[{ required: true }]}>

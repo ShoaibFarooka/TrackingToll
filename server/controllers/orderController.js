@@ -30,6 +30,7 @@ const CreateOrder = async (req, res) => {
             MR Number: ${order.clientInfo.mrNumber}\n
             Customer Name: ${order.clientInfo.customerName}\n
             Current Phase: New Order Submitted\n
+            Team Comments: ${data.teamComments}\n
             Required Action: prcoessing by ${order.currentTeamProcessing} team \n
             Order Link: ${process.env.CLIENT_URL}/view-order/${order._id}
             `
@@ -74,6 +75,7 @@ const UpdateTeamResponse = async (req, res) => {
             Customer Name: ${order.clientInfo.customerName}\n
             Current Phase: ${status === 'approved' ? 'Approved' : 'Returned'} by ${userTeam} team \n
             Required Action: ${status === 'approved' && userTeam === 'field_operation' ? 'Completed' : `prcoessing by ${order.currentTeamProcessing}`} team \n
+            Team Comments: ${teamComments} \n
             Order Link: ${process.env.CLIENT_URL}/view-order/${order._id}
             `
             await emailService.sendEmail(user.email, emailSubject, emailText);
